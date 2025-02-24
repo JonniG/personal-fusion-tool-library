@@ -1,0 +1,3863 @@
+{
+    "data": [
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Whiteside 6210 - 1 inch Spoilboard Cutter",
+            "expressions": {
+                "tool_bodyLength": "1 in",
+                "tool_description": "'Whiteside 6210 - 1 inch Spoilboard Cutter'",
+                "tool_shaftDiameter": ".25 in"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 1,
+                "HAND": true,
+                "LB": 1,
+                "LCF": 0.25,
+                "NOF": 3,
+                "OAL": 1.687,
+                "SFDM": 0.25,
+                "assemblyGaugeLength": 1,
+                "shoulder-diameter": 1.9685039370078743,
+                "shoulder-length": 0.4724409448818898
+            },
+            "guid": "886dd6c8-ba73-4da1-b704-ee70b9c192d6",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 1,
+                "length-offset": 1,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 1,
+                "turret": 0
+            },
+            "product-id": "6210",
+            "product-link": "https://www.whitesiderouterbits.com/products/6210",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": null,
+                        "expressions": {
+                            "tool_coolant": "'disabled'",
+                            "tool_feedCutting": "80 in/min",
+                            "tool_spindleSpeed": "10000 rpm"
+                        },
+                        "f_n": 0.00333333,
+                        "f_z": 0.002666666666666667,
+                        "guid": "4ecc9ffe-b403-4e1a-8096-f3a6c5d77bb7",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 10000,
+                        "n_ramp": 10000,
+                        "name": "Default Preset",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 2617.9938779914937,
+                        "v_f": 80,
+                        "v_f_leadIn": 80,
+                        "v_f_leadOut": 80,
+                        "v_f_plunge": 33.3333,
+                        "v_f_ramp": 33.3333,
+                        "v_f_transition": 80
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "Whiteside Router Bits"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Whiteside SC54 - 15 degree V-Bit, 1/16 inch Flat Point",
+            "expressions": {
+                "tool_description": "'Whiteside SC54 - 15 degree V-Bit, 1/16 inch Flat Point'",
+                "tool_inclusiveAngle": "15 degrees",
+                "tool_numberOfFlutes": "2",
+                "tool_shaftDiameter": ".25 in",
+                "tool_tipDiameter": "1/16\""
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 1.25,
+                "LCF": 0.7,
+                "NOF": 2,
+                "OAL": 2.5,
+                "SFDM": 0.25,
+                "TA": 7.5,
+                "assemblyGaugeLength": 1.25,
+                "shoulder-diameter": 0.25,
+                "shoulder-length": 1.062992125984252,
+                "tip-diameter": 0.0625
+            },
+            "guid": "623fae0d-de84-4186-a21c-dc8974bcb435",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 2,
+                "length-offset": 2,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 2,
+                "turret": 0
+            },
+            "product-id": "SC54",
+            "product-link": "https://www.whitesiderouterbits.com/products/sc54",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": null,
+                        "f_n": 0.0025,
+                        "f_z": 0.00375,
+                        "guid": "9613eba1-ef0a-482c-9aaa-1a525c4fe10b",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 20000,
+                        "n_ramp": 20000,
+                        "name": "Default Preset",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 1308.9969389957469,
+                        "v_f": 150,
+                        "v_f_leadIn": 150,
+                        "v_f_leadOut": 150,
+                        "v_f_plunge": 50,
+                        "v_f_ramp": 50,
+                        "v_f_transition": 150
+                    }
+                ]
+            },
+            "type": "chamfer mill",
+            "unit": "inches",
+            "vendor": "Whiteside Router Bits"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Whiteside SC50 - 22 degree V-bit",
+            "expressions": {
+                "tool_description": "'Whiteside SC50 - 22 degree V-bit'",
+                "tool_numberOfFlutes": "1",
+                "tool_shaftDiameter": ".25 in",
+                "tool_taperAngle": "11 degrees"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 1.25,
+                "LCF": 0.625,
+                "NOF": 1,
+                "OAL": 2.5,
+                "SFDM": 0.25,
+                "TA": 11,
+                "assemblyGaugeLength": 1.25,
+                "shoulder-diameter": 0.25,
+                "shoulder-length": 1.062992125984252,
+                "tip-diameter": 0
+            },
+            "guid": "0bfbd2ab-69a4-4884-95f3-00de6f5c635e",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 3,
+                "length-offset": 3,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 3,
+                "turret": 0
+            },
+            "product-id": "SC50",
+            "product-link": "https://www.whitesiderouterbits.com/products/SC50",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": null,
+                        "f_n": 0.000833335,
+                        "f_z": 0.0025,
+                        "guid": "a053b430-5bea-42bd-880d-945bc2b18efd",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 20000,
+                        "n_ramp": 20000,
+                        "name": "Default Preset",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 1308.9969389957469,
+                        "v_f": 50,
+                        "v_f_leadIn": 50,
+                        "v_f_leadOut": 50,
+                        "v_f_plunge": 16.6667,
+                        "v_f_ramp": 16.6667,
+                        "v_f_transition": 50
+                    }
+                ]
+            },
+            "type": "chamfer mill",
+            "unit": "inches",
+            "vendor": "Whiteside Router Bits"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Bits&Bits 425-VG30 - 30 Degree V-Bit ",
+            "expressions": {
+                "tool_description": "'Bits&Bits 425-VG30 - 30 Degree V-Bit '",
+                "tool_productId": "'425-VG30'",
+                "tool_productLink": "'https://bitsbits.com/product/425-vg30/'",
+                "tool_taperAngle": "15 degrees"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 0.25,
+                "NOF": 2,
+                "OAL": 2.5,
+                "SFDM": 0.25,
+                "TA": 15,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.25,
+                "shoulder-length": 0.26,
+                "tip-diameter": 0
+            },
+            "guid": "aa104966-a116-41aa-ab75-9103f67331e2",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 4,
+                "length-offset": 4,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 4,
+                "turret": 0
+            },
+            "product-id": "425-VG30",
+            "product-link": "https://bitsbits.com/product/425-vg30/",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": null,
+                        "f_n": 0.0031249999999999993,
+                        "f_z": 0.0031249999999999993,
+                        "guid": "9613eba1-ef0a-482c-9aaa-1a525c4fe10b",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Default Preset",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 1047.1975511965975,
+                        "v_f": 100,
+                        "v_f_leadIn": 100,
+                        "v_f_leadOut": 100,
+                        "v_f_plunge": 50,
+                        "v_f_ramp": 50,
+                        "v_f_transition": 100
+                    }
+                ]
+            },
+            "type": "chamfer mill",
+            "unit": "inches",
+            "vendor": "Bitsbits.com"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Bits&Bits 425-VG90 - 90 Degree V-Bit",
+            "expressions": {
+                "tool_description": "'Bits&Bits 425-VG90 - 90 Degree V-Bit'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 0.2,
+                "NOF": 2,
+                "OAL": 2.5,
+                "SFDM": 0.25,
+                "TA": 45,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.25,
+                "shoulder-length": 0.26,
+                "tip-diameter": 0
+            },
+            "guid": "3330e404-0f17-4c88-b5e2-8a595055f85f",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 6,
+                "length-offset": 6,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 6,
+                "turret": 0
+            },
+            "product-id": "425-VG90",
+            "product-link": "https://bitsbits.com/product/90-v-groove/",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": null,
+                        "f_n": 0.0031249999999999993,
+                        "f_z": 0.0031249999999999993,
+                        "guid": "9613eba1-ef0a-482c-9aaa-1a525c4fe10b",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Default Preset",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 1047.1975511965975,
+                        "v_f": 100,
+                        "v_f_leadIn": 100,
+                        "v_f_leadOut": 100,
+                        "v_f_plunge": 50,
+                        "v_f_ramp": 50,
+                        "v_f_transition": 100
+                    }
+                ]
+            },
+            "type": "chamfer mill",
+            "unit": "inches",
+            "vendor": "Bitsbits.com"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Bits&Bits 425-UP125 - 1/8\" 'O' Flute Up-Cut Spiral for Plastic and Aluminum",
+            "expressions": {
+                "tool_description": "'Bits&Bits 425-UP125 - 1/8\" 'O' Flute Up-Cut Spiral for Plastic and Aluminum'",
+                "tool_shaftDiameter": ".125\""
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.125,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 0.625,
+                "NOF": 1,
+                "OAL": 2.5,
+                "SFDM": 0.125,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.125,
+                "shoulder-length": 0.65
+            },
+            "guid": "89164591-bbc4-4eb6-8054-fb33d8b5bb81",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 10,
+                "length-offset": 10,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 10,
+                "turret": 0
+            },
+            "product-id": "425-UP125",
+            "product-link": "https://bitsbits.com/product/425-up125/",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.0025,
+                        "f_z": 0.0031249999999999993,
+                        "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Aluminum",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 523.598775598299,
+                        "v_f": 50,
+                        "v_f_leadIn": 50,
+                        "v_f_leadOut": 50,
+                        "v_f_plunge": 40,
+                        "v_f_ramp": 25,
+                        "v_f_transition": 50
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.001875,
+                        "f_z": 0.0031249999999999993,
+                        "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Plastic / Acrylic",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 523.598775598299,
+                        "v_f": 50,
+                        "v_f_leadIn": 50,
+                        "v_f_leadOut": 50,
+                        "v_f_plunge": 30,
+                        "v_f_ramp": 35,
+                        "v_f_transition": 50
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "Bitsbits.com"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Bits&Bits SRF4-062UP - 1/16\" Up-Cut Spiral Bit",
+            "expressions": {
+                "tool_description": "'Bits&Bits SRF4-062UP - 1/16\" Up-Cut Spiral Bit'",
+                "tool_shaftDiameter": ".125\""
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.0625,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 0.25,
+                "NOF": 2,
+                "OAL": 2.5,
+                "SFDM": 0.125,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.0625,
+                "shoulder-length": 0.3125
+            },
+            "guid": "95e46cf4-a5dd-4a3d-98e9-2db785e21896",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 12,
+                "length-offset": 12,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 12,
+                "turret": 0
+            },
+            "product-id": "SRF4-062UP",
+            "product-link": "https://bitsbits.com/product/srf4-062up/",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.0021875,
+                        "f_z": 0.0015624999999999997,
+                        "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Wood / Plywood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 261.79938779914943,
+                        "v_f": 50,
+                        "v_f_leadIn": 50,
+                        "v_f_leadOut": 50,
+                        "v_f_plunge": 35,
+                        "v_f_ramp": 35,
+                        "v_f_transition": 50
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.0025,
+                        "f_z": 0.0021875,
+                        "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "MDF / Laminate",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 261.79938779914943,
+                        "v_f": 70,
+                        "v_f_leadIn": 70,
+                        "v_f_leadOut": 70,
+                        "v_f_plunge": 40,
+                        "v_f_ramp": 45,
+                        "v_f_transition": 70
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.0018750000000000004,
+                        "f_z": 0.00125,
+                        "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Aluminum",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 261.79938779914943,
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 30.00000000000001,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 40
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.0021875,
+                        "f_z": 0.0015624999999999997,
+                        "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Plastic / Acrylic",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 261.79938779914943,
+                        "v_f": 50,
+                        "v_f_leadIn": 50,
+                        "v_f_leadOut": 50,
+                        "v_f_plunge": 35,
+                        "v_f_ramp": 35,
+                        "v_f_transition": 50
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "Bitsbits.com"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Bits&Bits 425-DNC062 - 1/32\" Down-Cut Spiral Bit",
+            "expressions": {
+                "tool_description": "'Bits&Bits 425-DNC062 - 1/32\" Down-Cut Spiral Bit'",
+                "tool_diameter": "1/32\"",
+                "tool_shaftDiameter": ".125\""
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.03125,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 0.25,
+                "NOF": 2,
+                "OAL": 2.5,
+                "SFDM": 0.125,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.03125,
+                "shoulder-length": 0.3125
+            },
+            "guid": "80ba899f-fa60-45ff-817d-6b9c60645f6a",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 19,
+                "length-offset": 19,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 19,
+                "turret": 0
+            },
+            "product-id": "425-DNC062",
+            "product-link": "https://bitsbits.com/product/425-dnc062/",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.00125,
+                        "f_z": 0.00125,
+                        "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Wood / Plywood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 130.89969389957471,
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 20,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 40
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.00125,
+                        "f_z": 0.0015624999999999997,
+                        "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "MDF / Laminate",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 130.89969389957471,
+                        "v_f": 50,
+                        "v_f_leadIn": 50,
+                        "v_f_leadOut": 50,
+                        "v_f_plunge": 20,
+                        "v_f_ramp": 30.00000000000001,
+                        "v_f_transition": 50
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.00125,
+                        "f_z": 0.00125,
+                        "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Plastic / Acrylic",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 130.89969389957471,
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 20,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 40
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "Bitsbits.com"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Bits&Bits SRF4-062LR - 1/16\" Long Reach Up-Cut Spiral Bit",
+            "expressions": {
+                "tool_description": "'Bits&Bits SRF4-062LR - 1/16\" Long Reach Up-Cut Spiral Bit'",
+                "tool_shaftDiameter": ".125\""
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.0625,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 0.25,
+                "NOF": 2,
+                "OAL": 2.5,
+                "SFDM": 0.125,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.0625,
+                "shoulder-length": 0.75
+            },
+            "guid": "c0186d51-8d25-4693-91f1-ad06ef3a7cc7",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 13,
+                "length-offset": 13,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 13,
+                "turret": 0
+            },
+            "product-id": "SRF4-062LR",
+            "product-link": "https://bitsbits.com/product/srf4-062lr/",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.0015624999999999997,
+                        "f_z": 0.0015625,
+                        "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Wood / Plywood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 261.79938779914943,
+                        "v_f": 50.000000000000014,
+                        "v_f_leadIn": 50.000000000000014,
+                        "v_f_leadOut": 50.000000000000014,
+                        "v_f_plunge": 25,
+                        "v_f_ramp": 25,
+                        "v_f_transition": 50.000000000000014
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.0021875,
+                        "f_z": 0.0021875,
+                        "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "MDF / Laminate",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 261.79938779914943,
+                        "v_f": 70.00000000000003,
+                        "v_f_leadIn": 70.00000000000003,
+                        "v_f_leadOut": 70.00000000000003,
+                        "v_f_plunge": 35,
+                        "v_f_ramp": 35,
+                        "v_f_transition": 70.00000000000003
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.00125,
+                        "f_z": 0.00125,
+                        "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Aluminum",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 261.79938779914943,
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 20,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 40
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.0015624999999999997,
+                        "f_z": 0.0015624999999999997,
+                        "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Plastic / Acrylic",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 261.79938779914943,
+                        "v_f": 50,
+                        "v_f_leadIn": 50,
+                        "v_f_leadOut": 50,
+                        "v_f_plunge": 25,
+                        "v_f_ramp": 25,
+                        "v_f_transition": 50
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "Bitsbits.com"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Bits&Bits 425-DNC062LR - 1/16\" Long Reach Down-Cut Spiral Bit",
+            "expressions": {
+                "tool_description": "'Bits&Bits 425-DNC062LR - 1/16\" Long Reach Down-Cut Spiral Bit'",
+                "tool_shaftDiameter": ".125\""
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.0625,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 0.25,
+                "NOF": 2,
+                "OAL": 2.5,
+                "SFDM": 0.125,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.0625,
+                "shoulder-length": 0.75
+            },
+            "guid": "b6f62795-a381-482b-b984-6c3d779880d8",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 15,
+                "length-offset": 15,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 15,
+                "turret": 0
+            },
+            "product-id": "425-DNC062LR",
+            "product-link": "https://bitsbits.com/product/425-dnc062lr/",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.00125,
+                        "f_z": 0.0012500000000000005,
+                        "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Wood / Plywood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 261.79938779914943,
+                        "v_f": 40.00000000000002,
+                        "v_f_leadIn": 40.00000000000002,
+                        "v_f_leadOut": 40.00000000000002,
+                        "v_f_plunge": 20,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 40.00000000000002
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.0018750000000000004,
+                        "f_z": 0.0015624999999999997,
+                        "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "MDF / Laminate",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 261.79938779914943,
+                        "v_f": 50,
+                        "v_f_leadIn": 50,
+                        "v_f_leadOut": 50,
+                        "v_f_plunge": 30.00000000000001,
+                        "v_f_ramp": 30,
+                        "v_f_transition": 50
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "Bitsbits.com"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Bits&Bits SRB4-062UP - 1/16\" Ball Nose Up-Cut Spiral Bit",
+            "expressions": {
+                "tool_description": "'Bits&Bits SRB4-062UP - 1/16\" Ball Nose Up-Cut Spiral Bit'",
+                "tool_shaftDiameter": ".125\""
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.0625,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 0.25,
+                "NOF": 2,
+                "OAL": 2.5,
+                "SFDM": 0.125,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.0625,
+                "shoulder-length": 0.3125
+            },
+            "guid": "949a56b1-fade-4b6c-b6c1-285ecef7cc96",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 16,
+                "length-offset": 16,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 16,
+                "turret": 0
+            },
+            "product-id": "SRB4-062UP",
+            "product-link": "https://bitsbits.com/product/srb4-062up/",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.0021875,
+                        "f_z": 0.0015624999999999997,
+                        "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Wood / Plywood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 261.79938779914943,
+                        "v_f": 50,
+                        "v_f_leadIn": 60.00000000000002,
+                        "v_f_leadOut": 60.00000000000002,
+                        "v_f_plunge": 35,
+                        "v_f_ramp": 35,
+                        "v_f_transition": 50
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.0025,
+                        "f_z": 0.0021875,
+                        "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "MDF / Laminate",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 261.79938779914943,
+                        "v_f": 70,
+                        "v_f_leadIn": 70,
+                        "v_f_leadOut": 70,
+                        "v_f_plunge": 40,
+                        "v_f_ramp": 45,
+                        "v_f_transition": 70
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.0018750000000000004,
+                        "f_z": 0.00125,
+                        "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Aluminum",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 261.79938779914943,
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 30.00000000000001,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 40
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.0021875,
+                        "f_z": 0.0015624999999999997,
+                        "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Plastic / Acrylic",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 261.79938779914943,
+                        "v_f": 50,
+                        "v_f_leadIn": 50,
+                        "v_f_leadOut": 50,
+                        "v_f_plunge": 35,
+                        "v_f_ramp": 35,
+                        "v_f_transition": 50
+                    }
+                ]
+            },
+            "type": "ball end mill",
+            "unit": "inches",
+            "vendor": "Bitsbits.com"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Bits&Bits SRB4-062LR - 1/16\" Long Reach Ball Nose Up-Cut Spiral Bit",
+            "expressions": {
+                "tool_description": "'Bits&Bits SRB4-062LR - 1/16\" Long Reach Ball Nose Up-Cut Spiral Bit'",
+                "tool_shaftDiameter": ".125\""
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.0625,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 0.25,
+                "NOF": 2,
+                "OAL": 2.5,
+                "SFDM": 0.125,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.0625,
+                "shoulder-length": 0.75
+            },
+            "guid": "2d0302d4-0e72-4a77-822d-7e4074cca907",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 17,
+                "length-offset": 17,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 17,
+                "turret": 0
+            },
+            "product-id": "SRB4-062LR",
+            "product-link": "https://bitsbits.com/product/srb4-062lr/",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.0015624999999999997,
+                        "f_z": 0.00125,
+                        "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Wood / Plywood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 261.79938779914943,
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 25,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 40
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.00125,
+                        "f_z": 0.001875,
+                        "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "MDF / Laminate",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 261.79938779914943,
+                        "v_f": 60,
+                        "v_f_leadIn": 60,
+                        "v_f_leadOut": 60,
+                        "v_f_plunge": 20,
+                        "v_f_ramp": 30,
+                        "v_f_transition": 60
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.0009375,
+                        "f_z": 0.0007812499999999998,
+                        "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Aluminum",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 261.79938779914943,
+                        "v_f": 25,
+                        "v_f_leadIn": 25,
+                        "v_f_leadOut": 25,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 15,
+                        "v_f_transition": 25
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.0009375,
+                        "f_z": 0.00125,
+                        "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Plastic / Acrylic",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 261.79938779914943,
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 40
+                    }
+                ]
+            },
+            "type": "ball end mill",
+            "unit": "inches",
+            "vendor": "Bitsbits.com"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Bits&Bits 425-DNC250 - 1/4\" Down-Cut Spiral Bit",
+            "expressions": {
+                "tool_description": "'Bits&Bits 425-DNC250 - 1/4\" Down-Cut Spiral Bit'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 1,
+                "NOF": 2,
+                "OAL": 2.5,
+                "SFDM": 0.25,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.25,
+                "shoulder-length": 1.001
+            },
+            "guid": "b186a9a0-9af8-4937-8691-05545e62002a",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 7,
+                "length-offset": 7,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 7,
+                "turret": 0
+            },
+            "product-id": "425-DNC250",
+            "product-link": "https://bitsbits.com/product/425-dnc250-down-cut/",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.0046875,
+                        "f_z": 0.0046875,
+                        "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Wood / Plywood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 1047.1975511965975,
+                        "v_f": 150.00000000000006,
+                        "v_f_leadIn": 150.00000000000006,
+                        "v_f_leadOut": 150.00000000000006,
+                        "v_f_plunge": 75,
+                        "v_f_ramp": 75,
+                        "v_f_transition": 150.00000000000006
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.005,
+                        "f_z": 0.0053125,
+                        "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "MDF / Laminate",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 1047.1975511965975,
+                        "v_f": 170,
+                        "v_f_leadIn": 170,
+                        "v_f_leadOut": 170,
+                        "v_f_plunge": 80,
+                        "v_f_ramp": 90,
+                        "v_f_transition": 170
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.003333331249999999,
+                        "f_z": 0.0040625,
+                        "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Aluminum",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 1047.1975511965975,
+                        "v_f": 130,
+                        "v_f_leadIn": 130,
+                        "v_f_leadOut": 130,
+                        "v_f_plunge": 53.3333,
+                        "v_f_ramp": 60.00000000000002,
+                        "v_f_transition": 130
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.003333331249999999,
+                        "f_z": 0.004375,
+                        "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Plastic / Acrylic",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 1047.1975511965975,
+                        "v_f": 140,
+                        "v_f_leadIn": 140,
+                        "v_f_leadOut": 140,
+                        "v_f_plunge": 53.3333,
+                        "v_f_ramp": 70,
+                        "v_f_transition": 140
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "Bitsbits.com"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Bits&Bits 4TEB12-032-3FL - 1/32\" Ball 12°",
+            "expressions": {
+                "tool_description": "'Bits&Bits 4TEB12-032-3FL - 1/32\" Ball 12°'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.03125,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 1,
+                "NOF": 3,
+                "OAL": 2.5,
+                "RE": 0.015625,
+                "SFDM": 0.25,
+                "TA": 6,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.2624793175844883,
+                "shoulder-length": 1.1
+            },
+            "guid": "cabbf139-911f-4b6c-bdea-fb773e12484d",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 20,
+                "length-offset": 20,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 20,
+                "turret": 0
+            },
+            "product-id": "4TEB12-032-3FL",
+            "product-link": "https://bitsbits.com/product/4teb12-032-3fl/",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.00125,
+                        "f_z": 0.0007291666666666666,
+                        "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Wood / Plywood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 130.89969389957471,
+                        "v_f": 35,
+                        "v_f_leadIn": 35,
+                        "v_f_leadOut": 35,
+                        "v_f_plunge": 20,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 35
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.00125,
+                        "f_z": 0.0008333333333333333,
+                        "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "MDF / Laminate",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 130.89969389957471,
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 20,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 40
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.0009375,
+                        "f_z": 0.000625,
+                        "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Aluminum",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 130.89969389957471,
+                        "v_f": 30.00000000000001,
+                        "v_f_leadIn": 30.00000000000001,
+                        "v_f_leadOut": 30.00000000000001,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 15.000000000000004,
+                        "v_f_transition": 30.00000000000001
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.0009375,
+                        "f_z": 0.000625,
+                        "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Plastic / Acrylic",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 130.89969389957471,
+                        "v_f": 30.00000000000001,
+                        "v_f_leadIn": 30.00000000000001,
+                        "v_f_leadOut": 30.00000000000001,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 15.000000000000004,
+                        "v_f_transition": 30.00000000000001
+                    }
+                ]
+            },
+            "tapered-type": "tapered_ball",
+            "type": "tapered mill",
+            "unit": "inches",
+            "vendor": "Bitsbits.com"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Bits&Bits 425-VG60 - 60 Degree V-Bit ",
+            "expressions": {
+                "tool_description": "'Bits&Bits 425-VG60 - 60 Degree V-Bit '"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 0.25,
+                "NOF": 2,
+                "OAL": 2.5,
+                "SFDM": 0.25,
+                "TA": 30.00000000000001,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.25,
+                "shoulder-length": 0.26,
+                "tip-diameter": 0
+            },
+            "guid": "c1e5d4c2-1aab-474f-a1c8-d6d2b02a3b61",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 5,
+                "length-offset": 5,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 5,
+                "turret": 0
+            },
+            "product-id": "425-VG60",
+            "product-link": "https://bitsbits.com/product/60-degree-v-groove/",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": null,
+                        "f_n": 0.0031249999999999993,
+                        "f_z": 0.0031249999999999993,
+                        "guid": "9613eba1-ef0a-482c-9aaa-1a525c4fe10b",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Default Preset",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 1047.1975511965975,
+                        "v_f": 100,
+                        "v_f_leadIn": 100,
+                        "v_f_leadOut": 100,
+                        "v_f_plunge": 50,
+                        "v_f_ramp": 50,
+                        "v_f_transition": 100
+                    }
+                ]
+            },
+            "type": "chamfer mill",
+            "unit": "inches",
+            "vendor": "Bitsbits.com"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "CMT 192.001.11 - 1/4\" Down-Cut Spiral Bit",
+            "expressions": {
+                "tool_description": "'CMT 192.001.11 - 1/4\" Down-Cut Spiral Bit'",
+                "tool_fluteLength": ".5 in",
+                "tool_productId": "'CMT192.001.11'",
+                "tool_productLink": "'https://www.amazon.nl/-/en/gp/product/B000P4HOGE/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1'",
+                "tool_vendor": "'CMT'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 0.5,
+                "NOF": 2,
+                "OAL": 2.5,
+                "SFDM": 0.25,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.25,
+                "shoulder-length": 1.001
+            },
+            "guid": "8de8b7e8-45ae-47c2-95cb-360a7f747d4a",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 33,
+                "length-offset": 33,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 33,
+                "turret": 0
+            },
+            "product-id": "CMT192.001.11",
+            "product-link": "https://www.amazon.nl/-/en/gp/product/B000P4HOGE/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.0046875,
+                        "f_z": 0.0046875,
+                        "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Wood / Plywood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 1047.1975511965975,
+                        "v_f": 150.00000000000006,
+                        "v_f_leadIn": 150.00000000000006,
+                        "v_f_leadOut": 150.00000000000006,
+                        "v_f_plunge": 75,
+                        "v_f_ramp": 75,
+                        "v_f_transition": 150.00000000000006
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.005,
+                        "f_z": 0.0053125,
+                        "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "MDF / Laminate",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 1047.1975511965975,
+                        "v_f": 170,
+                        "v_f_leadIn": 170,
+                        "v_f_leadOut": 170,
+                        "v_f_plunge": 80,
+                        "v_f_ramp": 90,
+                        "v_f_transition": 170
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.003333331249999999,
+                        "f_z": 0.0040625,
+                        "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Aluminum",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 1047.1975511965975,
+                        "v_f": 130,
+                        "v_f_leadIn": 130,
+                        "v_f_leadOut": 130,
+                        "v_f_plunge": 53.3333,
+                        "v_f_ramp": 60.00000000000002,
+                        "v_f_transition": 130
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.003333331249999999,
+                        "f_z": 0.004375,
+                        "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Plastic / Acrylic",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 1047.1975511965975,
+                        "v_f": 140,
+                        "v_f_leadIn": 140,
+                        "v_f_leadOut": 140,
+                        "v_f_plunge": 53.3333,
+                        "v_f_ramp": 70,
+                        "v_f_transition": 140
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "CMT"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "CMT 192.007.11 - 1/8\" Down-Cut Spiral Bit",
+            "expressions": {
+                "tool_bodyLength": "1 in",
+                "tool_description": "'CMT 192.007.11 - 1/8\" Down-Cut Spiral Bit'",
+                "tool_diameter": ".125 in",
+                "tool_fluteLength": ".75 in",
+                "tool_productId": "'CMT192.007.11'",
+                "tool_productLink": "'https://www.amazon.nl/-/en/gp/product/B000P4NQGQ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1'",
+                "tool_shaftDiameter": ".25 in",
+                "tool_shoulderLength": "1 in",
+                "tool_vendor": "'CMT'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.125,
+                "HAND": true,
+                "LB": 1,
+                "LCF": 0.75,
+                "NOF": 2,
+                "OAL": 2.5,
+                "SFDM": 0.25,
+                "assemblyGaugeLength": 1,
+                "shoulder-diameter": 0.125,
+                "shoulder-length": 1
+            },
+            "guid": "81ea9f24-eefa-4518-b733-5585f43c0c25",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 34,
+                "length-offset": 34,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 34,
+                "turret": 0
+            },
+            "product-id": "CMT192.007.11",
+            "product-link": "https://www.amazon.nl/-/en/gp/product/B000P4NQGQ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.0046875,
+                        "f_z": 0.0046875,
+                        "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Wood / Plywood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 523.598775598299,
+                        "v_f": 150.00000000000006,
+                        "v_f_leadIn": 150.00000000000006,
+                        "v_f_leadOut": 150.00000000000006,
+                        "v_f_plunge": 75,
+                        "v_f_ramp": 75,
+                        "v_f_transition": 150.00000000000006
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.005,
+                        "f_z": 0.0053125,
+                        "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "MDF / Laminate",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 523.598775598299,
+                        "v_f": 170,
+                        "v_f_leadIn": 170,
+                        "v_f_leadOut": 170,
+                        "v_f_plunge": 80,
+                        "v_f_ramp": 90,
+                        "v_f_transition": 170
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.003333331249999999,
+                        "f_z": 0.0040625,
+                        "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Aluminum",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 523.598775598299,
+                        "v_f": 130,
+                        "v_f_leadIn": 130,
+                        "v_f_leadOut": 130,
+                        "v_f_plunge": 53.3333,
+                        "v_f_ramp": 60.00000000000002,
+                        "v_f_transition": 130
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.003333331249999999,
+                        "f_z": 0.004375,
+                        "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Plastic / Acrylic",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 523.598775598299,
+                        "v_f": 140,
+                        "v_f_leadIn": 140,
+                        "v_f_leadOut": 140,
+                        "v_f_plunge": 53.3333,
+                        "v_f_ramp": 70,
+                        "v_f_transition": 140
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "CMT"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "CMT 152.064.322 - 1/8\" Ball 7.2°",
+            "expressions": {
+                "tool_cornerRadius": "(1/16) in",
+                "tool_description": "'CMT 152.064.322 - 1/8\" Ball 7.2°'",
+                "tool_diameter": "1/8\"",
+                "tool_numberOfFlutes": "2",
+                "tool_productId": "'CMT152.064.322'",
+                "tool_shoulderLength": "1 in",
+                "tool_taperAngle": "3.6 degrees",
+                "tool_vendor": "'CMT'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.125,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 1,
+                "NOF": 2,
+                "OAL": 2.5,
+                "RE": 0.0625,
+                "SFDM": 0.25,
+                "TA": 3.6,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.25082933450729955,
+                "shoulder-length": 1
+            },
+            "guid": "cf0585aa-9f49-45a4-aed9-e09778d136d8",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 35,
+                "length-offset": 35,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 35,
+                "turret": 0
+            },
+            "product-id": "CMT152.064.322",
+            "product-link": "https://bitsbits.com/product/4teb12-032-3fl/",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.00125,
+                        "f_z": 0.00109375,
+                        "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Wood / Plywood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 523.598775598299,
+                        "v_f": 35,
+                        "v_f_leadIn": 35,
+                        "v_f_leadOut": 35,
+                        "v_f_plunge": 20,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 35
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.00125,
+                        "f_z": 0.00125,
+                        "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "MDF / Laminate",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 523.598775598299,
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 20,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 40
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.0009375,
+                        "f_z": 0.0009375000000000002,
+                        "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Aluminum",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 523.598775598299,
+                        "v_f": 30.00000000000001,
+                        "v_f_leadIn": 30.00000000000001,
+                        "v_f_leadOut": 30.00000000000001,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 15.000000000000004,
+                        "v_f_transition": 30.00000000000001
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.0009375,
+                        "f_z": 0.0009375000000000002,
+                        "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Plastic / Acrylic",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 523.598775598299,
+                        "v_f": 30.00000000000001,
+                        "v_f_leadIn": 30.00000000000001,
+                        "v_f_leadOut": 30.00000000000001,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 15.000000000000004,
+                        "v_f_transition": 30.00000000000001
+                    }
+                ]
+            },
+            "tapered-type": "tapered_ball",
+            "type": "tapered mill",
+            "unit": "inches",
+            "vendor": "CMT"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Bits&Bits SRB4-125UP - 1/8\" Ball Nose Up-Cut Spiral Bit",
+            "expressions": {
+                "tool_description": "'Bits&Bits SRB4-125UP - 1/8\" Ball Nose Up-Cut Spiral Bit'",
+                "tool_shaftDiameter": ".125\""
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.125,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 1,
+                "NOF": 2,
+                "OAL": 2.5,
+                "SFDM": 0.125,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.125,
+                "shoulder-length": 1.01
+            },
+            "guid": "24425432-84a6-41dd-b63a-a26ebeb0f8d2",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 11,
+                "length-offset": 11,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 11,
+                "turret": 0
+            },
+            "product-id": "SRB4-125UP",
+            "product-link": "https://bitsbits.com/product/srb4-125up/",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.0031249999999999993,
+                        "f_z": 0.0021875,
+                        "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Wood / Plywood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 523.598775598299,
+                        "v_f": 70,
+                        "v_f_leadIn": 70,
+                        "v_f_leadOut": 70,
+                        "v_f_plunge": 50,
+                        "v_f_ramp": 60.000000000000014,
+                        "v_f_transition": 70
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.003333331249999999,
+                        "f_z": 0.0028125,
+                        "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "MDF / Laminate",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 523.598775598299,
+                        "v_f": 90,
+                        "v_f_leadIn": 90,
+                        "v_f_leadOut": 90,
+                        "v_f_plunge": 53.3333,
+                        "v_f_ramp": 90,
+                        "v_f_transition": 90
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.003333331249999999,
+                        "f_z": 0.0015624999999999997,
+                        "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Aluminum",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 523.598775598299,
+                        "v_f": 50,
+                        "v_f_leadIn": 50,
+                        "v_f_leadOut": 50,
+                        "v_f_plunge": 53.3333,
+                        "v_f_ramp": 60.00000000000002,
+                        "v_f_transition": 50
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.003333331249999999,
+                        "f_z": 0.001875,
+                        "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Plastic / Acrylic",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 523.598775598299,
+                        "v_f": 60,
+                        "v_f_leadIn": 60,
+                        "v_f_leadOut": 60,
+                        "v_f_plunge": 53.3333,
+                        "v_f_ramp": 70,
+                        "v_f_transition": 60
+                    }
+                ]
+            },
+            "type": "ball end mill",
+            "unit": "inches",
+            "vendor": "Bitsbits.com"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Bits&Bits 425-DNC062 - 1/16\" Down-Cut Spiral Bit",
+            "expressions": {
+                "tool_description": "'Bits&Bits 425-DNC062 - 1/16\" Down-Cut Spiral Bit'",
+                "tool_shaftDiameter": ".125\""
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.0625,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 0.25,
+                "NOF": 2,
+                "OAL": 2.5,
+                "SFDM": 0.125,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.0625,
+                "shoulder-length": 0.3125
+            },
+            "guid": "a8f549ac-3c26-4ff1-b73b-f658dd87a013",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 14,
+                "length-offset": 14,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 14,
+                "turret": 0
+            },
+            "product-id": "425-DNC062",
+            "product-link": "https://bitsbits.com/product/425-dnc062/",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.00125,
+                        "f_z": 0.00125,
+                        "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Wood / Plywood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 261.79938779914943,
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 20,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 40
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.00125,
+                        "f_z": 0.0015624999999999997,
+                        "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "MDF / Laminate",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 261.79938779914943,
+                        "v_f": 50,
+                        "v_f_leadIn": 50,
+                        "v_f_leadOut": 50,
+                        "v_f_plunge": 20,
+                        "v_f_ramp": 30.00000000000001,
+                        "v_f_transition": 50
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.00125,
+                        "f_z": 0.00125,
+                        "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Plastic / Acrylic",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 261.79938779914943,
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 20,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 40
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "Bitsbits.com"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Bits&Bits SRF4-062UP - 1/32\" Up-Cut Spiral Bit",
+            "expressions": {
+                "tool_bodyLength": "1 in",
+                "tool_description": "'Bits&Bits SRF4-062UP - 1/32\" Up-Cut Spiral Bit'",
+                "tool_diameter": "1/32\"",
+                "tool_fluteLength": ".25 in",
+                "tool_shaftDiameter": ".125\""
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.03125,
+                "HAND": true,
+                "LB": 1,
+                "LCF": 0.25,
+                "NOF": 2,
+                "OAL": 2.5,
+                "SFDM": 0.125,
+                "assemblyGaugeLength": 1,
+                "shoulder-diameter": 0.03125,
+                "shoulder-length": 0.3125
+            },
+            "guid": "ac0b5c8a-b0ce-4859-a040-feb1e1770a72",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 18,
+                "length-offset": 18,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 18,
+                "turret": 0
+            },
+            "product-id": "SRF4-062UP",
+            "product-link": "https://bitsbits.com/product/srf4-062up/",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.0021875,
+                        "f_z": 0.0015624999999999997,
+                        "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Wood / Plywood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 130.89969389957471,
+                        "v_f": 50,
+                        "v_f_leadIn": 50,
+                        "v_f_leadOut": 50,
+                        "v_f_plunge": 35,
+                        "v_f_ramp": 35,
+                        "v_f_transition": 50
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.0025,
+                        "f_z": 0.0021875,
+                        "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "MDF / Laminate",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 130.89969389957471,
+                        "v_f": 70,
+                        "v_f_leadIn": 70,
+                        "v_f_leadOut": 70,
+                        "v_f_plunge": 40,
+                        "v_f_ramp": 45,
+                        "v_f_transition": 70
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.0018750000000000004,
+                        "f_z": 0.00125,
+                        "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Aluminum",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 130.89969389957471,
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 30.00000000000001,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 40
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.0021875,
+                        "f_z": 0.0015624999999999997,
+                        "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Plastic / Acrylic",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 130.89969389957471,
+                        "v_f": 50,
+                        "v_f_leadIn": 50,
+                        "v_f_leadOut": 50,
+                        "v_f_plunge": 35,
+                        "v_f_ramp": 35,
+                        "v_f_transition": 50
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "Bitsbits.com"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Bits&Bits SRF4-125UP - 1/8\" Up-Cut Spiral Bit",
+            "expressions": {
+                "tool_description": "'Bits&Bits SRF4-125UP - 1/8\" Up-Cut Spiral Bit'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.125,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 1,
+                "NOF": 2,
+                "OAL": 2.5,
+                "SFDM": 0.25,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.125,
+                "shoulder-length": 1.01
+            },
+            "guid": "5df9258f-33b4-4dce-bd70-f97308d558bf",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 8,
+                "length-offset": 8,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 8,
+                "turret": 0
+            },
+            "product-id": "SRF4-125UP",
+            "product-link": "https://bitsbits.com/product/srf4-125up/",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.0031249999999999993,
+                        "f_z": 0.0021875,
+                        "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Wood / Plywood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 523.598775598299,
+                        "v_f": 70,
+                        "v_f_leadIn": 70,
+                        "v_f_leadOut": 70,
+                        "v_f_plunge": 50,
+                        "v_f_ramp": 60.00000000000002,
+                        "v_f_transition": 70
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.003333331249999999,
+                        "f_z": 0.0028125,
+                        "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "MDF / Laminate",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 523.598775598299,
+                        "v_f": 90.00000000000003,
+                        "v_f_leadIn": 90.00000000000003,
+                        "v_f_leadOut": 90.00000000000003,
+                        "v_f_plunge": 53.3333,
+                        "v_f_ramp": 50,
+                        "v_f_transition": 90.00000000000003
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.003333331249999999,
+                        "f_z": 0.0015624999999999997,
+                        "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Aluminum",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 523.598775598299,
+                        "v_f": 50,
+                        "v_f_leadIn": 50,
+                        "v_f_leadOut": 50,
+                        "v_f_plunge": 53.3333,
+                        "v_f_ramp": 60.00000000000002,
+                        "v_f_transition": 50
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.003333331249999999,
+                        "f_z": 0.0015624999999999997,
+                        "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Plastic / Acrylic",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 523.598775598299,
+                        "v_f": 50,
+                        "v_f_leadIn": 50,
+                        "v_f_leadOut": 50,
+                        "v_f_plunge": 53.3333,
+                        "v_f_ramp": 70,
+                        "v_f_transition": 50
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "Bitsbits.com"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Bits&Bits 425-DNC125LR - 1/8\" Down-Cut Spiral Bit - 1\" LOC",
+            "expressions": {
+                "tool_description": "'Bits&Bits 425-DNC125LR - 1/8\" Down-Cut Spiral Bit - 1\" LOC'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.125,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 1,
+                "NOF": 2,
+                "OAL": 2.5,
+                "SFDM": 0.25,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.125,
+                "shoulder-length": 1.01
+            },
+            "guid": "86ad251c-28d9-45ca-9ea7-3b22788a365e",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 9,
+                "length-offset": 9,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 9,
+                "turret": 0
+            },
+            "product-id": "425-DNC125LR",
+            "product-link": "https://bitsbits.com/product/425-dnc125lr/",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.0031249999999999993,
+                        "f_z": 0.0021875,
+                        "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Wood / Plywood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 523.598775598299,
+                        "v_f": 70,
+                        "v_f_leadIn": 70,
+                        "v_f_leadOut": 70,
+                        "v_f_plunge": 50,
+                        "v_f_ramp": 40,
+                        "v_f_transition": 70
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.003333331249999999,
+                        "f_z": 0.0028125,
+                        "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "MDF / Laminate",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 523.598775598299,
+                        "v_f": 90,
+                        "v_f_leadIn": 90,
+                        "v_f_leadOut": 90,
+                        "v_f_plunge": 53.3333,
+                        "v_f_ramp": 50,
+                        "v_f_transition": 90
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.003333331249999999,
+                        "f_z": 0.001875,
+                        "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Plastic / Acrylic",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 523.598775598299,
+                        "v_f": 60,
+                        "v_f_leadIn": 60,
+                        "v_f_leadOut": 60,
+                        "v_f_plunge": 53.3333,
+                        "v_f_ramp": 70,
+                        "v_f_transition": 60
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "Bitsbits.com"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Carbide3d #101 - 1/8\" Ballnose",
+            "geometry": {
+                "CSP": false,
+                "DC": 0.125,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 0.5,
+                "NOF": 2,
+                "OAL": 1.5,
+                "SFDM": 0.125,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.125,
+                "shoulder-length": 0.5
+            },
+            "guid": "f4bc1a4e-fcb6-4dd9-9142-03532333d8ca",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 21,
+                "length-offset": 21,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 21,
+                "turret": 0
+            },
+            "product-id": "101",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "expressions": {
+                            "tool_feedCutting": "70 in/min",
+                            "tool_spindleSpeed": "20000 rpm"
+                        },
+                        "f_n": 8e-04,
+                        "f_z": 0.00175,
+                        "guid": "f8593c2a-d420-46b7-9493-09ef412dd7d1",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 20000,
+                        "n_ramp": 20000,
+                        "name": "Wood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 654.4984694978734,
+                        "v_f": 70,
+                        "v_f_leadIn": 70,
+                        "v_f_leadOut": 70,
+                        "v_f_plunge": 16,
+                        "v_f_ramp": 36,
+                        "v_f_transition": 70
+                    }
+                ]
+            },
+            "type": "ball end mill",
+            "unit": "inches",
+            "vendor": "Carbide 3D"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Carbide3d #102 - 1/8\" Square",
+            "geometry": {
+                "CSP": false,
+                "DC": 0.125,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 0.5,
+                "NOF": 2,
+                "OAL": 1.5,
+                "SFDM": 0.125,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.125,
+                "shoulder-length": 0.5
+            },
+            "guid": "e0925d87-38e1-4119-867d-b198a1283971",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 22,
+                "length-offset": 22,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 22,
+                "turret": 0
+            },
+            "product-id": "102",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "expressions": {
+                            "tool_feedCutting": "70 in/min",
+                            "tool_spindleSpeed": "20000 rpm"
+                        },
+                        "f_n": 8e-04,
+                        "f_z": 0.00175,
+                        "guid": "64d2039d-f34c-3034-1bc0-e89b8b2542f2",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 20000,
+                        "n_ramp": 20000,
+                        "name": "Wood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 654.4984694978734,
+                        "v_f": 70,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 16,
+                        "v_f_ramp": 36,
+                        "v_f_transition": 70
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "Carbide 3D"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Carbide3d #111 - 1/16\" Ballnose",
+            "geometry": {
+                "CSP": false,
+                "DC": 0.0625,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 0.25,
+                "NOF": 2,
+                "OAL": 1.5,
+                "SFDM": 0.125,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.0625,
+                "shoulder-length": 0.3
+            },
+            "guid": "6941f268-f762-4db6-a203-8f827a24f22a",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 23,
+                "length-offset": 23,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 23,
+                "turret": 0
+            },
+            "product-id": "111",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "expressions": {
+                            "tool_feedCutting": "60 in/min",
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0006666666666666666,
+                        "f_z": 0.00125,
+                        "guid": "cdac3c03-4b43-8dd9-ae02-d4ac47fa3a89",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Wood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 392.6990816987241,
+                        "v_f": 60,
+                        "v_f_leadIn": 36,
+                        "v_f_leadOut": 36,
+                        "v_f_plunge": 16,
+                        "v_f_ramp": 32,
+                        "v_f_transition": 60
+                    }
+                ]
+            },
+            "type": "ball end mill",
+            "unit": "inches",
+            "vendor": "Carbide 3D"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Carbide3d #112 - 1/16\" Square",
+            "geometry": {
+                "CSP": false,
+                "DC": 0.0625,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 0.25,
+                "NOF": 2,
+                "OAL": 1.5,
+                "SFDM": 0.125,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.0625,
+                "shoulder-length": 0.3
+            },
+            "guid": "86052014-a0a0-4d91-b860-0c07403d858b",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 24,
+                "length-offset": 24,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 24,
+                "turret": 0
+            },
+            "product-id": "112",
+            "product-link": "",
+            "shaft": {
+                "segments": [
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 0.0625,
+                        "upper-diameter": 0.125
+                    }
+                ],
+                "type": "shaft"
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "expressions": {
+                            "tool_feedCutting": "40 inpm",
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0006666666666666666,
+                        "f_z": 0.0008333333333333333,
+                        "guid": "902596f8-3377-4b9f-ab91-87b0902cc63a",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Wood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 392.6990816987241,
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 16,
+                        "v_f_ramp": 32,
+                        "v_f_transition": 40
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "Carbide 3D"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "CNC Plus 3.0mm - Aluminium Up-Cut",
+            "expressions": {
+                "tool_description": "'CNC Plus 3.0mm - Aluminium Up-Cut'",
+                "tool_diameter": "3mm",
+                "tool_productId": "'cncp3mm-alu'",
+                "tool_shaftDiameter": "1/8\"",
+                "tool_unit": "'millimeters'",
+                "tool_vendor": "'CNC Plus'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 3,
+                "HAND": true,
+                "LB": 38.1,
+                "LCF": 12.7,
+                "NOF": 2,
+                "OAL": 38.1,
+                "SFDM": 3.175,
+                "assemblyGaugeLength": 38.1,
+                "shoulder-diameter": 3,
+                "shoulder-length": 12.7
+            },
+            "guid": "4f60b5e4-3cbf-4564-85b9-6584d909ca10",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 32,
+                "length-offset": 32,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 32,
+                "turret": 0
+            },
+            "product-id": "cncp3mm-alu",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "expressions": {
+                            "tool_feedCutting": "70 in/min",
+                            "tool_spindleSpeed": "20000 rpm"
+                        },
+                        "f_n": 0.02032,
+                        "f_z": 0.04445,
+                        "guid": "64d2039d-f34c-3034-1bc0-e89b8b2542f2",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 20000,
+                        "n_ramp": 20000,
+                        "name": "Wood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 188.4955592153876,
+                        "v_f": 1778,
+                        "v_f_leadIn": 1016,
+                        "v_f_leadOut": 1016,
+                        "v_f_plunge": 406.4,
+                        "v_f_ramp": 914.4,
+                        "v_f_transition": 1778
+                    },
+                    {
+                        "description": "",
+                        "expressions": {
+                            "tool_feedCutting": "1000 mmpm",
+                            "tool_feedEntry": "500 mmpm",
+                            "tool_feedExit": "500 mmpm",
+                            "tool_feedPlunge": "300 mmpm",
+                            "tool_feedRamp": "500 mmpm",
+                            "tool_spindleSpeed": "18000 rpm"
+                        },
+                        "f_n": 0.016666666666666666,
+                        "f_z": 0.027777777777777776,
+                        "guid": "acb2170c-8d66-487c-a7e7-913cfb183f67",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "Metal",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 169.64600329384882,
+                        "v_f": 1000,
+                        "v_f_leadIn": 500,
+                        "v_f_leadOut": 500,
+                        "v_f_plunge": 300,
+                        "v_f_ramp": 500,
+                        "v_f_transition": 1000
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "CNC Plus"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "CNC Plus 0.3mm - Diamond Coated PCB Mill",
+            "expressions": {
+                "tool_bodyLength": "10 mm",
+                "tool_description": "'CNC Plus 0.3mm - Diamond Coated PCB Mill'",
+                "tool_diameter": "0.3mm",
+                "tool_fluteLength": "3 mm",
+                "tool_productId": "'cncp0.3mm-PCB'",
+                "tool_shaftDiameter": "1/8\"",
+                "tool_shoulderLength": "7 mm",
+                "tool_unit": "'millimeters'",
+                "tool_vendor": "'CNC Plus'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.3,
+                "HAND": true,
+                "LB": 10,
+                "LCF": 3,
+                "NOF": 2,
+                "OAL": 38.1,
+                "SFDM": 3.175,
+                "assemblyGaugeLength": 10,
+                "shoulder-diameter": 0.3,
+                "shoulder-length": 7
+            },
+            "guid": "2bb599fb-5910-430d-acae-3ce3790c6231",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 28,
+                "length-offset": 28,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 28,
+                "turret": 0
+            },
+            "product-id": "cncp0.3mm-PCB",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "expressions": {
+                            "tool_feedCutting": "100 mmpm",
+                            "tool_feedEntry": "100 mmpm",
+                            "tool_feedExit": "100 mmpm",
+                            "tool_feedPlunge": "30 mmpm",
+                            "tool_feedRamp": "100 mmpm",
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.00125,
+                        "f_z": 0.0020833333333333333,
+                        "guid": "64d2039d-f34c-3034-1bc0-e89b8b2542f2",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "PCB",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 22.61946710584651,
+                        "v_f": 100,
+                        "v_f_leadIn": 100,
+                        "v_f_leadOut": 100,
+                        "v_f_plunge": 30,
+                        "v_f_ramp": 100,
+                        "v_f_transition": 100
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "CNC Plus"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "CNC Plus 1.5mm - Aluminium Up-Cut",
+            "expressions": {
+                "tool_description": "'CNC Plus 1.5mm - Aluminium Up-Cut'",
+                "tool_diameter": "1.5mm",
+                "tool_productId": "'cncp1.5mm-alu'",
+                "tool_shaftDiameter": "1/8\"",
+                "tool_unit": "'millimeters'",
+                "tool_vendor": "'CNC Plus'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 1.5,
+                "HAND": true,
+                "LB": 38.1,
+                "LCF": 12.7,
+                "NOF": 2,
+                "OAL": 38.1,
+                "SFDM": 3.175,
+                "assemblyGaugeLength": 38.1,
+                "shoulder-diameter": 1.5,
+                "shoulder-length": 12.7
+            },
+            "guid": "0e4a25f2-ab5f-4bcb-9119-6b91777c18c3",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 31,
+                "length-offset": 31,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 31,
+                "turret": 0
+            },
+            "product-id": "cncp1.5mm-alu",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "expressions": {
+                            "tool_feedCutting": "400 mmpm",
+                            "tool_feedEntry": "300 mmpm",
+                            "tool_feedExit": "300 mmpm",
+                            "tool_feedPlunge": "150 mmpm",
+                            "tool_feedRamp": "150 mmpm",
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.00625,
+                        "f_z": 0.008333333333333333,
+                        "guid": "64d2039d-f34c-3034-1bc0-e89b8b2542f2",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Metal",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 113.09733552923257,
+                        "v_f": 400,
+                        "v_f_leadIn": 300,
+                        "v_f_leadOut": 300,
+                        "v_f_plunge": 150,
+                        "v_f_ramp": 150,
+                        "v_f_transition": 400
+                    },
+                    {
+                        "description": "",
+                        "expressions": {
+                            "tool_feedCutting": "55 in/min",
+                            "tool_feedPlunge": "300 mmpm",
+                            "tool_feedRamp": "700 mmpm",
+                            "tool_spindleSpeed": "20000 rpm"
+                        },
+                        "f_n": 0.015,
+                        "f_z": 0.034925,
+                        "guid": "94b0089a-ecf1-400b-bbff-3527e3caa3f6",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 20000,
+                        "n_ramp": 20000,
+                        "name": "Wood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 94.2477796076938,
+                        "v_f": 1397,
+                        "v_f_leadIn": 1016,
+                        "v_f_leadOut": 1016,
+                        "v_f_plunge": 300,
+                        "v_f_ramp": 700,
+                        "v_f_transition": 1397
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "CNC Plus"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "CNC Plus 0.4mm - Aluminium Up-Cut",
+            "expressions": {
+                "tool_bodyLength": "20 mm",
+                "tool_description": "'CNC Plus 0.4mm - Aluminium Up-Cut'",
+                "tool_diameter": "0.4mm",
+                "tool_fluteLength": "5mm",
+                "tool_productId": "'cncp0.4mm-alu'",
+                "tool_shaftDiameter": "1/8\"",
+                "tool_shoulderLength": "7 mm",
+                "tool_unit": "'millimeters'",
+                "tool_vendor": "'CNC Plus'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.4,
+                "HAND": true,
+                "LB": 20,
+                "LCF": 5,
+                "NOF": 2,
+                "OAL": 38.1,
+                "SFDM": 3.175,
+                "assemblyGaugeLength": 20,
+                "shoulder-diameter": 0.4,
+                "shoulder-length": 7
+            },
+            "guid": "9ca80c69-b16a-4f86-b375-53a53c32b51f",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 29,
+                "length-offset": 29,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 29,
+                "turret": 0
+            },
+            "product-id": "cncp0.4mm-alu",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "expressions": {
+                            "tool_feedCutting": "50 mmpm",
+                            "tool_feedEntry": "50 mmpm",
+                            "tool_feedExit": "50 mmpm",
+                            "tool_feedPlunge": "20 mmpm",
+                            "tool_feedRamp": "50 mmpm",
+                            "tool_feedTransition": "35 mmpm",
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0008333333333333334,
+                        "f_z": 0.0010416666666666669,
+                        "guid": "64d2039d-f34c-3034-1bc0-e89b8b2542f2",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Metal",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 30.159289474462017,
+                        "v_f": 50,
+                        "v_f_leadIn": 50,
+                        "v_f_leadOut": 50,
+                        "v_f_plunge": 20,
+                        "v_f_ramp": 50,
+                        "v_f_transition": 35
+                    },
+                    {
+                        "description": "",
+                        "expressions": {
+                            "tool_feedCutting": "600 mmpm",
+                            "tool_feedEntry": "600 mmpm",
+                            "tool_feedExit": "600 mmpm",
+                            "tool_feedPlunge": "100 mmpm",
+                            "tool_feedRamp": "400 mmpm",
+                            "tool_feedTransition": "400 mmpm",
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.004166666666666667,
+                        "f_z": 0.0125,
+                        "guid": "94b0089a-ecf1-400b-bbff-3527e3caa3f6",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Wood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 30.159289474462017,
+                        "v_f": 600,
+                        "v_f_leadIn": 600,
+                        "v_f_leadOut": 600,
+                        "v_f_plunge": 100,
+                        "v_f_ramp": 400,
+                        "v_f_transition": 400
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "CNC Plus"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "CNC Plus 0.8mm - Aluminium Up-Cut",
+            "expressions": {
+                "tool_bodyLength": "20 mm",
+                "tool_description": "'CNC Plus 0.8mm - Aluminium Up-Cut'",
+                "tool_diameter": "0.8mm",
+                "tool_fluteLength": "5mm",
+                "tool_productId": "'cncp0.8mm-alu'",
+                "tool_shaftDiameter": "1/8\"",
+                "tool_shoulderLength": "7 mm",
+                "tool_unit": "'millimeters'",
+                "tool_vendor": "'CNC Plus'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.8,
+                "HAND": true,
+                "LB": 20,
+                "LCF": 5,
+                "NOF": 2,
+                "OAL": 38.1,
+                "SFDM": 3.175,
+                "assemblyGaugeLength": 20,
+                "shoulder-diameter": 0.8,
+                "shoulder-length": 7
+            },
+            "guid": "ddc07d34-70d1-41e2-b1c0-acf9c6e7b77b",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 30,
+                "length-offset": 30,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 30,
+                "turret": 0
+            },
+            "product-id": "cncp0.8mm-alu",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "expressions": {
+                            "tool_feedCutting": "200 mmpm",
+                            "tool_feedEntry": "150 mmpm",
+                            "tool_feedExit": "150 mmpm",
+                            "tool_feedPlunge": "50 mmpm",
+                            "tool_feedRamp": "150 mmpm",
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0020833333333333333,
+                        "f_z": 0.004166666666666667,
+                        "guid": "64d2039d-f34c-3034-1bc0-e89b8b2542f2",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Metal",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 60.318578948924035,
+                        "v_f": 200,
+                        "v_f_leadIn": 150,
+                        "v_f_leadOut": 150,
+                        "v_f_plunge": 50,
+                        "v_f_ramp": 150,
+                        "v_f_transition": 200
+                    },
+                    {
+                        "description": "",
+                        "expressions": {
+                            "tool_feedCutting": "55 in/min",
+                            "tool_feedPlunge": "300 mmpm",
+                            "tool_feedRamp": "700 mmpm",
+                            "tool_spindleSpeed": "20000 rpm"
+                        },
+                        "f_n": 0.015,
+                        "f_z": 0.034925,
+                        "guid": "94b0089a-ecf1-400b-bbff-3527e3caa3f6",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 20000,
+                        "n_ramp": 20000,
+                        "name": "Wood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 50.2654824574367,
+                        "v_f": 1397,
+                        "v_f_leadIn": 1016,
+                        "v_f_leadOut": 1016,
+                        "v_f_plunge": 300,
+                        "v_f_ramp": 700,
+                        "v_f_transition": 1397
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "CNC Plus"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "CNC Plus 3.0mm - Down-cut Spiral",
+            "expressions": {
+                "tool_description": "'CNC Plus 3.0mm - Down-cut Spiral'",
+                "tool_diameter": "3mm",
+                "tool_productId": "'cncp3mm-alu'",
+                "tool_shaftDiameter": "1/8\"",
+                "tool_unit": "'millimeters'",
+                "tool_vendor": "'CNC Plus'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 3,
+                "HAND": true,
+                "LB": 38.1,
+                "LCF": 12.7,
+                "NOF": 2,
+                "OAL": 38.1,
+                "SFDM": 3.175,
+                "assemblyGaugeLength": 38.1,
+                "shoulder-diameter": 3,
+                "shoulder-length": 12.7
+            },
+            "guid": "c4b6f13a-ab9c-4e59-a241-8ac28d0eacb4",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 27,
+                "length-offset": 27,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 27,
+                "turret": 0
+            },
+            "product-id": "cncp3mm-alu",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.003125,
+                        "f_z": 0.0021875,
+                        "guid": "010e2f64-d101-4904-961e-806adf3cf73c",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Wood / Plywood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 150.79644737231007,
+                        "v_f": 70,
+                        "v_f_leadIn": 70,
+                        "v_f_leadOut": 70,
+                        "v_f_plunge": 50,
+                        "v_f_ramp": 40,
+                        "v_f_transition": 70
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.00333333125,
+                        "f_z": 0.0028125,
+                        "guid": "3a28e53a-4275-4864-ad26-5643abb4b3e0",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "MDF / Laminate",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 150.79644737231007,
+                        "v_f": 90,
+                        "v_f_leadIn": 90,
+                        "v_f_leadOut": 90,
+                        "v_f_plunge": 53.3333,
+                        "v_f_ramp": 50,
+                        "v_f_transition": 90
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.00333333125,
+                        "f_z": 0.001875,
+                        "guid": "6ee8b6ac-8207-41d1-a332-fefdcf7e9467",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Plastic / Acrylic",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 150.79644737231007,
+                        "v_f": 60,
+                        "v_f_leadIn": 60,
+                        "v_f_leadOut": 60,
+                        "v_f_plunge": 53.3333,
+                        "v_f_ramp": 70,
+                        "v_f_transition": 60
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "CNC Plus"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "CNC Plus 1.5mm - Down-cut Spiral",
+            "expressions": {
+                "tool_description": "'CNC Plus 1.5mm - Down-cut Spiral'",
+                "tool_diameter": "1.5mm",
+                "tool_productId": "'cncp1.5mm-alu'",
+                "tool_shaftDiameter": "1/8\"",
+                "tool_unit": "'millimeters'",
+                "tool_vendor": "'CNC Plus'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 1.5,
+                "HAND": true,
+                "LB": 38.1,
+                "LCF": 12.7,
+                "NOF": 2,
+                "OAL": 38.1,
+                "SFDM": 3.175,
+                "assemblyGaugeLength": 38.1,
+                "shoulder-diameter": 1.5,
+                "shoulder-length": 12.7
+            },
+            "guid": "1f1d4a70-9e84-4f25-b9a7-4ad982228b6a",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 26,
+                "length-offset": 26,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 26,
+                "turret": 0
+            },
+            "product-id": "cncp1.5mm-alu",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.0021875,
+                        "f_z": 0.0015625,
+                        "guid": "077317dc-4ed6-4378-98d1-883dbc1fb817",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Wood / Plywood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 75.39822368615503,
+                        "v_f": 50,
+                        "v_f_leadIn": 50,
+                        "v_f_leadOut": 50,
+                        "v_f_plunge": 35,
+                        "v_f_ramp": 35,
+                        "v_f_transition": 50
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.0025,
+                        "f_z": 0.0021875,
+                        "guid": "e1cc3f55-c085-47e8-9ae1-f5c16917a913",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "MDF / Laminate",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 75.39822368615503,
+                        "v_f": 70,
+                        "v_f_leadIn": 70,
+                        "v_f_leadOut": 70,
+                        "v_f_plunge": 40,
+                        "v_f_ramp": 45,
+                        "v_f_transition": 70
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.0021875,
+                        "f_z": 0.0015625,
+                        "guid": "5459f4da-f839-4f4d-93da-88188b64d639",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Plastic / Acrylic",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 75.39822368615503,
+                        "v_f": 50,
+                        "v_f_leadIn": 50,
+                        "v_f_leadOut": 50,
+                        "v_f_plunge": 35,
+                        "v_f_ramp": 35,
+                        "v_f_transition": 50
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "CNC Plus"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "CNC Plus 0.8mm - Down-cut Spiral",
+            "expressions": {
+                "tool_bodyLength": "20 mm",
+                "tool_description": "'CNC Plus 0.8mm - Down-cut Spiral'",
+                "tool_diameter": "0.8mm",
+                "tool_fluteLength": "5mm",
+                "tool_productId": "'cncp0.8mm-alu'",
+                "tool_shaftDiameter": "1/8\"",
+                "tool_shoulderLength": "7 mm",
+                "tool_unit": "'millimeters'",
+                "tool_vendor": "'CNC Plus'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.8,
+                "HAND": true,
+                "LB": 20,
+                "LCF": 5,
+                "NOF": 2,
+                "OAL": 38.1,
+                "SFDM": 3.175,
+                "assemblyGaugeLength": 20,
+                "shoulder-diameter": 0.8,
+                "shoulder-length": 7
+            },
+            "guid": "c3fceca8-3c6f-470e-85e8-e66fe7d56f26",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 25,
+                "length-offset": 25,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 25,
+                "turret": 0
+            },
+            "product-id": "cncp0.8mm-alu",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.00125,
+                        "f_z": 0.00125,
+                        "guid": "e5ee5c8e-6a04-454b-b0ba-e164d3617b9b",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Wood / Plywood",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 40.21238596594936,
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 20,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 40
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.00125,
+                        "f_z": 0.0015625,
+                        "guid": "84d7ace4-5240-4b60-be32-ab312d3ecefe",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "MDF / Laminate",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 40.21238596594936,
+                        "v_f": 50,
+                        "v_f_leadIn": 50,
+                        "v_f_leadOut": 50,
+                        "v_f_plunge": 20,
+                        "v_f_ramp": 30.00000000000001,
+                        "v_f_transition": 50
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.00125,
+                        "f_z": 0.00125,
+                        "guid": "6046741c-5e1a-4448-86aa-3c16679b5929",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "n_ramp": 16000,
+                        "name": "Plastic / Acrylic",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 40.21238596594936,
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 20,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 40
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "CNC Plus"
+        }
+    ],
+    "version": 33
+}

@@ -116,9 +116,15 @@
                 "presets": [
                     {
                         "description": null,
-                        "f_n": 0.0025,
-                        "f_z": 0.00375,
-                        "guid": "9613eba1-ef0a-482c-9aaa-1a525c4fe10b",
+                        "expressions": {
+                            "tool_feedCutting": "40 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "35 inpm",
+                            "tool_spindleSpeed": "20000 rpm"
+                        },
+                        "f_n": 0.00075,
+                        "f_z": 0.001,
+                        "guid": "f2b09c8f-74b2-44a6-99d1-3c7dc43d3ebb",
                         "material": {
                             "category": "all",
                             "query": "",
@@ -126,18 +132,18 @@
                         },
                         "n": 20000,
                         "n_ramp": 20000,
-                        "name": "Default Preset",
+                        "name": "Wood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
                         "v_c": 1308.9969389957469,
-                        "v_f": 150,
-                        "v_f_leadIn": 150,
-                        "v_f_leadOut": 150,
-                        "v_f_plunge": 50,
-                        "v_f_ramp": 50,
-                        "v_f_transition": 150
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 35,
+                        "v_f_transition": 40
                     }
                 ]
             },
@@ -187,9 +193,15 @@
                 "presets": [
                     {
                         "description": null,
-                        "f_n": 0.000833335,
-                        "f_z": 0.0025,
-                        "guid": "a053b430-5bea-42bd-880d-945bc2b18efd",
+                        "expressions": {
+                            "tool_feedCutting": "40 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "35 inpm",
+                            "tool_spindleSpeed": "20000 rpm"
+                        },
+                        "f_n": 0.00075,
+                        "f_z": 0.002,
+                        "guid": "21671cb1-7432-42cf-8256-63079b47d04c",
                         "material": {
                             "category": "all",
                             "query": "",
@@ -197,18 +209,18 @@
                         },
                         "n": 20000,
                         "n_ramp": 20000,
-                        "name": "Default Preset",
+                        "name": "Wood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
                         "v_c": 1308.9969389957469,
-                        "v_f": 50,
-                        "v_f_leadIn": 50,
-                        "v_f_leadOut": 50,
-                        "v_f_plunge": 16.6667,
-                        "v_f_ramp": 16.6667,
-                        "v_f_transition": 50
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 35,
+                        "v_f_transition": 40
                     }
                 ]
             },
@@ -258,28 +270,34 @@
                 "presets": [
                     {
                         "description": null,
-                        "f_n": 0.0031249999999999993,
-                        "f_z": 0.0031249999999999993,
+                        "expressions": {
+                            "tool_feedCutting": "40 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "35 inpm",
+                            "tool_spindleSpeed": "20000 rpm"
+                        },
+                        "f_n": 0.00075,
+                        "f_z": 0.001,
                         "guid": "9613eba1-ef0a-482c-9aaa-1a525c4fe10b",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
-                        "name": "Default Preset",
+                        "n": 20000,
+                        "n_ramp": 20000,
+                        "name": "Wood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 1047.1975511965975,
-                        "v_f": 100,
-                        "v_f_leadIn": 100,
-                        "v_f_leadOut": 100,
-                        "v_f_plunge": 50,
-                        "v_f_ramp": 50,
-                        "v_f_transition": 100
+                        "v_c": 1308.9969389957469,
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 35,
+                        "v_f_transition": 40
                     }
                 ]
             },
@@ -326,28 +344,34 @@
                 "presets": [
                     {
                         "description": null,
-                        "f_n": 0.0031249999999999993,
-                        "f_z": 0.0031249999999999993,
-                        "guid": "9613eba1-ef0a-482c-9aaa-1a525c4fe10b",
+                        "expressions": {
+                            "tool_feedCutting": "40 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "35 inpm",
+                            "tool_spindleSpeed": "20000 rpm"
+                        },
+                        "f_n": 0.00075,
+                        "f_z": 0.001,
+                        "guid": "0a5bc1aa-46c6-4618-a92a-98f3e8394663",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
-                        "name": "Default Preset",
+                        "n": 20000,
+                        "n_ramp": 20000,
+                        "name": "Wood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 1047.1975511965975,
-                        "v_f": 100,
-                        "v_f_leadIn": 100,
-                        "v_f_leadOut": 100,
-                        "v_f_plunge": 50,
-                        "v_f_ramp": 50,
-                        "v_f_transition": 100
+                        "v_c": 1308.9969389957469,
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 35,
+                        "v_f_transition": 40
                     }
                 ]
             },
@@ -393,22 +417,25 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.0025,
-                        "f_z": 0.0031249999999999993,
+                        "expressions": {
+                            "tool_spindleSpeed": "18000 rpm"
+                        },
+                        "f_n": 0.0022222222222222222,
+                        "f_z": 0.0027777777777777775,
                         "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 18000,
+                        "n_ramp": 18000,
                         "name": "Aluminum",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 523.598775598299,
+                        "v_c": 589.0486225480862,
                         "v_f": 50,
                         "v_f_leadIn": 50,
                         "v_f_leadOut": 50,
@@ -418,22 +445,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.001875,
-                        "f_z": 0.0031249999999999993,
+                        "expressions": {
+                            "tool_spindleSpeed": "18000 rpm"
+                        },
+                        "f_n": 0.0016666666666666666,
+                        "f_z": 0.0027777777777777775,
                         "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 18000,
+                        "n_ramp": 18000,
                         "name": "Plastic / Acrylic",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 523.598775598299,
+                        "v_c": 589.0486225480862,
                         "v_f": 50,
                         "v_f_leadIn": 50,
                         "v_f_leadOut": 50,
@@ -485,22 +515,25 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.0021875,
-                        "f_z": 0.0015624999999999997,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0014583333333333332,
+                        "f_z": 0.0010416666666666669,
                         "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Wood / Plywood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 261.79938779914943,
+                        "v_c": 392.6990816987241,
                         "v_f": 50,
                         "v_f_leadIn": 50,
                         "v_f_leadOut": 50,
@@ -510,22 +543,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.0025,
-                        "f_z": 0.0021875,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0016666666666666666,
+                        "f_z": 0.0014583333333333332,
                         "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "MDF / Laminate",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 261.79938779914943,
+                        "v_c": 392.6990816987241,
                         "v_f": 70,
                         "v_f_leadIn": 70,
                         "v_f_leadOut": 70,
@@ -535,22 +571,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.0018750000000000004,
-                        "f_z": 0.00125,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.00125,
+                        "f_z": 0.0008333333333333333,
                         "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Aluminum",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 261.79938779914943,
+                        "v_c": 392.6990816987241,
                         "v_f": 40,
                         "v_f_leadIn": 40,
                         "v_f_leadOut": 40,
@@ -560,22 +599,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.0021875,
-                        "f_z": 0.0015624999999999997,
+                        "expressions": {
+                            "tool_spindleSpeed": "20000 rpm"
+                        },
+                        "f_n": 0.00175,
+                        "f_z": 0.00125,
                         "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 20000,
+                        "n_ramp": 20000,
                         "name": "Plastic / Acrylic",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 261.79938779914943,
+                        "v_c": 327.2492347489367,
                         "v_f": 50,
                         "v_f_leadIn": 50,
                         "v_f_leadOut": 50,
@@ -628,22 +670,25 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.00125,
-                        "f_z": 0.00125,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0008333333333333333,
+                        "f_z": 0.0008333333333333333,
                         "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Wood / Plywood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 130.89969389957471,
+                        "v_c": 196.34954084936209,
                         "v_f": 40,
                         "v_f_leadIn": 40,
                         "v_f_leadOut": 40,
@@ -653,22 +698,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.00125,
-                        "f_z": 0.0015624999999999997,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0008333333333333333,
+                        "f_z": 0.0010416666666666669,
                         "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "MDF / Laminate",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 130.89969389957471,
+                        "v_c": 196.34954084936209,
                         "v_f": 50,
                         "v_f_leadIn": 50,
                         "v_f_leadOut": 50,
@@ -678,22 +726,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.00125,
-                        "f_z": 0.00125,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0008333333333333333,
+                        "f_z": 0.0008333333333333333,
                         "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Plastic / Acrylic",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 130.89969389957471,
+                        "v_c": 196.34954084936209,
                         "v_f": 40,
                         "v_f_leadIn": 40,
                         "v_f_leadOut": 40,
@@ -745,22 +796,25 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.0015624999999999997,
-                        "f_z": 0.0015625,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0010416666666666669,
+                        "f_z": 0.0010416666666666669,
                         "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Wood / Plywood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 261.79938779914943,
+                        "v_c": 392.6990816987241,
                         "v_f": 50.000000000000014,
                         "v_f_leadIn": 50.000000000000014,
                         "v_f_leadOut": 50.000000000000014,
@@ -770,22 +824,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.0021875,
-                        "f_z": 0.0021875,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0014583333333333332,
+                        "f_z": 0.0014583333333333336,
                         "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "MDF / Laminate",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 261.79938779914943,
+                        "v_c": 392.6990816987241,
                         "v_f": 70.00000000000003,
                         "v_f_leadIn": 70.00000000000003,
                         "v_f_leadOut": 70.00000000000003,
@@ -795,22 +852,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.00125,
-                        "f_z": 0.00125,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0008333333333333333,
+                        "f_z": 0.0008333333333333333,
                         "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Aluminum",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 261.79938779914943,
+                        "v_c": 392.6990816987241,
                         "v_f": 40,
                         "v_f_leadIn": 40,
                         "v_f_leadOut": 40,
@@ -820,22 +880,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.0015624999999999997,
-                        "f_z": 0.0015624999999999997,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0010416666666666669,
+                        "f_z": 0.0010416666666666669,
                         "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Plastic / Acrylic",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 261.79938779914943,
+                        "v_c": 392.6990816987241,
                         "v_f": 50,
                         "v_f_leadIn": 50,
                         "v_f_leadOut": 50,
@@ -887,53 +950,87 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.00125,
-                        "f_z": 0.0012500000000000005,
-                        "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0008333333333333333,
+                        "f_z": 0.0008333333333333333,
+                        "guid": "2b847e62-6e93-4393-be16-58fceee7c4d5",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Wood / Plywood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 261.79938779914943,
-                        "v_f": 40.00000000000002,
-                        "v_f_leadIn": 40.00000000000002,
-                        "v_f_leadOut": 40.00000000000002,
+                        "v_c": 392.6990816987241,
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
                         "v_f_plunge": 20,
                         "v_f_ramp": 20,
-                        "v_f_transition": 40.00000000000002
+                        "v_f_transition": 40
                     },
                     {
                         "description": "",
-                        "f_n": 0.0018750000000000004,
-                        "f_z": 0.0015624999999999997,
-                        "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0008333333333333333,
+                        "f_z": 0.0010416666666666669,
+                        "guid": "e90fdf5a-a770-44d7-a26e-5bd45ccf1927",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "MDF / Laminate",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 261.79938779914943,
+                        "v_c": 392.6990816987241,
                         "v_f": 50,
                         "v_f_leadIn": 50,
                         "v_f_leadOut": 50,
-                        "v_f_plunge": 30.00000000000001,
-                        "v_f_ramp": 30,
+                        "v_f_plunge": 20,
+                        "v_f_ramp": 30.00000000000001,
                         "v_f_transition": 50
+                    },
+                    {
+                        "description": "",
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0008333333333333333,
+                        "f_z": 0.0008333333333333333,
+                        "guid": "d0dc6181-b44e-4a80-b16e-9547edac6979",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Plastic / Acrylic",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 392.6990816987241,
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 20,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 40
                     }
                 ]
             },
@@ -979,72 +1076,81 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.0021875,
-                        "f_z": 0.0015624999999999997,
-                        "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0008333333333333333,
+                        "f_z": 0.0008333333333333333,
+                        "guid": "52fdc99f-9363-479b-a293-001ddb990ad9",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Wood / Plywood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 261.79938779914943,
-                        "v_f": 50,
-                        "v_f_leadIn": 60.00000000000002,
-                        "v_f_leadOut": 60.00000000000002,
-                        "v_f_plunge": 35,
-                        "v_f_ramp": 35,
-                        "v_f_transition": 50
+                        "v_c": 392.6990816987241,
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 20,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 40
                     },
                     {
                         "description": "",
-                        "f_n": 0.0025,
-                        "f_z": 0.0021875,
-                        "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0008333333333333333,
+                        "f_z": 0.0010416666666666669,
+                        "guid": "9e24f7fd-8836-4f3b-9066-eee5bf46d444",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "MDF / Laminate",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 261.79938779914943,
-                        "v_f": 70,
-                        "v_f_leadIn": 70,
-                        "v_f_leadOut": 70,
-                        "v_f_plunge": 40,
-                        "v_f_ramp": 45,
-                        "v_f_transition": 70
+                        "v_c": 392.6990816987241,
+                        "v_f": 50,
+                        "v_f_leadIn": 50,
+                        "v_f_leadOut": 50,
+                        "v_f_plunge": 20,
+                        "v_f_ramp": 30.00000000000001,
+                        "v_f_transition": 50
                     },
                     {
                         "description": "",
-                        "f_n": 0.0018750000000000004,
-                        "f_z": 0.00125,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.00125,
+                        "f_z": 0.0008333333333333333,
                         "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Aluminum",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 261.79938779914943,
+                        "v_c": 392.6990816987241,
                         "v_f": 40,
                         "v_f_leadIn": 40,
                         "v_f_leadOut": 40,
@@ -1054,28 +1160,31 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.0021875,
-                        "f_z": 0.0015624999999999997,
-                        "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0008333333333333333,
+                        "f_z": 0.0008333333333333333,
+                        "guid": "abc7fbf7-8221-48ee-b0e5-51cab47868dc",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Plastic / Acrylic",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 261.79938779914943,
-                        "v_f": 50,
-                        "v_f_leadIn": 50,
-                        "v_f_leadOut": 50,
-                        "v_f_plunge": 35,
-                        "v_f_ramp": 35,
-                        "v_f_transition": 50
+                        "v_c": 392.6990816987241,
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 20,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 40
                     }
                 ]
             },
@@ -1121,101 +1230,113 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.0015624999999999997,
-                        "f_z": 0.00125,
-                        "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0008333333333333333,
+                        "f_z": 0.0008333333333333333,
+                        "guid": "6aac7bbe-f70f-4c78-bdff-604710708815",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Wood / Plywood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 261.79938779914943,
+                        "v_c": 392.6990816987241,
                         "v_f": 40,
                         "v_f_leadIn": 40,
                         "v_f_leadOut": 40,
-                        "v_f_plunge": 25,
+                        "v_f_plunge": 20,
                         "v_f_ramp": 20,
                         "v_f_transition": 40
                     },
                     {
                         "description": "",
-                        "f_n": 0.00125,
-                        "f_z": 0.001875,
-                        "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0008333333333333333,
+                        "f_z": 0.0010416666666666669,
+                        "guid": "804b9271-35e5-47ee-9a07-c82526045fed",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "MDF / Laminate",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 261.79938779914943,
-                        "v_f": 60,
-                        "v_f_leadIn": 60,
-                        "v_f_leadOut": 60,
+                        "v_c": 392.6990816987241,
+                        "v_f": 50,
+                        "v_f_leadIn": 50,
+                        "v_f_leadOut": 50,
                         "v_f_plunge": 20,
-                        "v_f_ramp": 30,
-                        "v_f_transition": 60
+                        "v_f_ramp": 30.00000000000001,
+                        "v_f_transition": 50
                     },
                     {
                         "description": "",
-                        "f_n": 0.0009375,
-                        "f_z": 0.0007812499999999998,
-                        "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.00125,
+                        "f_z": 0.0008333333333333333,
+                        "guid": "c96fa06b-841a-4b76-a967-3c26ffa601eb",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Aluminum",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 261.79938779914943,
-                        "v_f": 25,
-                        "v_f_leadIn": 25,
-                        "v_f_leadOut": 25,
-                        "v_f_plunge": 15,
-                        "v_f_ramp": 15,
-                        "v_f_transition": 25
+                        "v_c": 392.6990816987241,
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 30.00000000000001,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 40
                     },
                     {
                         "description": "",
-                        "f_n": 0.0009375,
-                        "f_z": 0.00125,
-                        "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0008333333333333333,
+                        "f_z": 0.0008333333333333333,
+                        "guid": "1bfcfabb-aa8b-4b52-b02c-46afbfd7e798",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Plastic / Acrylic",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 261.79938779914943,
+                        "v_c": 392.6990816987241,
                         "v_f": 40,
                         "v_f_leadIn": 40,
                         "v_f_leadOut": 40,
-                        "v_f_plunge": 15,
+                        "v_f_plunge": 20,
                         "v_f_ramp": 20,
                         "v_f_transition": 40
                     }
@@ -1262,22 +1383,25 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.0046875,
-                        "f_z": 0.0046875,
+                        "expressions": {
+                            "tool_spindleSpeed": "20000 rpm"
+                        },
+                        "f_n": 0.00375,
+                        "f_z": 0.003750000000000001,
                         "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 20000,
+                        "n_ramp": 20000,
                         "name": "Wood / Plywood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 1047.1975511965975,
+                        "v_c": 1308.9969389957469,
                         "v_f": 150.00000000000006,
                         "v_f_leadIn": 150.00000000000006,
                         "v_f_leadOut": 150.00000000000006,
@@ -1287,22 +1411,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.005,
-                        "f_z": 0.0053125,
+                        "expressions": {
+                            "tool_spindleSpeed": "20000 rpm"
+                        },
+                        "f_n": 0.004,
+                        "f_z": 0.00425,
                         "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 20000,
+                        "n_ramp": 20000,
                         "name": "MDF / Laminate",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 1047.1975511965975,
+                        "v_c": 1308.9969389957469,
                         "v_f": 170,
                         "v_f_leadIn": 170,
                         "v_f_leadOut": 170,
@@ -1312,22 +1439,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.003333331249999999,
-                        "f_z": 0.0040625,
+                        "expressions": {
+                            "tool_spindleSpeed": "20000 rpm"
+                        },
+                        "f_n": 0.002666665,
+                        "f_z": 0.00325,
                         "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 20000,
+                        "n_ramp": 20000,
                         "name": "Aluminum",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 1047.1975511965975,
+                        "v_c": 1308.9969389957469,
                         "v_f": 130,
                         "v_f_leadIn": 130,
                         "v_f_leadOut": 130,
@@ -1337,22 +1467,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.003333331249999999,
-                        "f_z": 0.004375,
+                        "expressions": {
+                            "tool_spindleSpeed": "20000 rpm"
+                        },
+                        "f_n": 0.002666665,
+                        "f_z": 0.0035,
                         "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 20000,
+                        "n_ramp": 20000,
                         "name": "Plastic / Acrylic",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 1047.1975511965975,
+                        "v_c": 1308.9969389957469,
                         "v_f": 140,
                         "v_f_leadIn": 140,
                         "v_f_leadOut": 140,
@@ -1405,22 +1538,25 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.00125,
-                        "f_z": 0.0007291666666666666,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0008333333333333333,
+                        "f_z": 0.000486111111111111,
                         "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Wood / Plywood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 130.89969389957471,
+                        "v_c": 196.34954084936209,
                         "v_f": 35,
                         "v_f_leadIn": 35,
                         "v_f_leadOut": 35,
@@ -1430,22 +1566,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.00125,
-                        "f_z": 0.0008333333333333333,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0008333333333333333,
+                        "f_z": 0.0005555555555555556,
                         "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "MDF / Laminate",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 130.89969389957471,
+                        "v_c": 196.34954084936209,
                         "v_f": 40,
                         "v_f_leadIn": 40,
                         "v_f_leadOut": 40,
@@ -1455,22 +1594,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.0009375,
-                        "f_z": 0.000625,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.000625,
+                        "f_z": 0.0004166666666666668,
                         "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Aluminum",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 130.89969389957471,
+                        "v_c": 196.34954084936209,
                         "v_f": 30.00000000000001,
                         "v_f_leadIn": 30.00000000000001,
                         "v_f_leadOut": 30.00000000000001,
@@ -1480,22 +1622,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.0009375,
-                        "f_z": 0.000625,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.000625,
+                        "f_z": 0.0004166666666666668,
                         "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Plastic / Acrylic",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 130.89969389957471,
+                        "v_c": 196.34954084936209,
                         "v_f": 30.00000000000001,
                         "v_f_leadIn": 30.00000000000001,
                         "v_f_leadOut": 30.00000000000001,
@@ -1549,28 +1694,34 @@
                 "presets": [
                     {
                         "description": null,
-                        "f_n": 0.0031249999999999993,
-                        "f_z": 0.0031249999999999993,
-                        "guid": "9613eba1-ef0a-482c-9aaa-1a525c4fe10b",
+                        "expressions": {
+                            "tool_feedCutting": "40 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "35 inpm",
+                            "tool_spindleSpeed": "20000 rpm"
+                        },
+                        "f_n": 0.00075,
+                        "f_z": 0.001,
+                        "guid": "f4da97af-99a4-46cc-9d93-2637609d0724",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
-                        "name": "Default Preset",
+                        "n": 20000,
+                        "n_ramp": 20000,
+                        "name": "Wood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 1047.1975511965975,
-                        "v_f": 100,
-                        "v_f_leadIn": 100,
-                        "v_f_leadOut": 100,
-                        "v_f_plunge": 50,
-                        "v_f_ramp": 50,
-                        "v_f_transition": 100
+                        "v_c": 1308.9969389957469,
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 35,
+                        "v_f_transition": 40
                     }
                 ]
             },
@@ -1619,22 +1770,25 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.0046875,
-                        "f_z": 0.0046875,
+                        "expressions": {
+                            "tool_spindleSpeed": "20000 rpm"
+                        },
+                        "f_n": 0.00375,
+                        "f_z": 0.003750000000000001,
                         "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 20000,
+                        "n_ramp": 20000,
                         "name": "Wood / Plywood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 1047.1975511965975,
+                        "v_c": 1308.9969389957469,
                         "v_f": 150.00000000000006,
                         "v_f_leadIn": 150.00000000000006,
                         "v_f_leadOut": 150.00000000000006,
@@ -1644,22 +1798,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.005,
-                        "f_z": 0.0053125,
+                        "expressions": {
+                            "tool_spindleSpeed": "20000 rpm"
+                        },
+                        "f_n": 0.004,
+                        "f_z": 0.00425,
                         "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 20000,
+                        "n_ramp": 20000,
                         "name": "MDF / Laminate",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 1047.1975511965975,
+                        "v_c": 1308.9969389957469,
                         "v_f": 170,
                         "v_f_leadIn": 170,
                         "v_f_leadOut": 170,
@@ -1669,22 +1826,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.003333331249999999,
-                        "f_z": 0.0040625,
+                        "expressions": {
+                            "tool_spindleSpeed": "20000 rpm"
+                        },
+                        "f_n": 0.002666665,
+                        "f_z": 0.00325,
                         "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 20000,
+                        "n_ramp": 20000,
                         "name": "Aluminum",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 1047.1975511965975,
+                        "v_c": 1308.9969389957469,
                         "v_f": 130,
                         "v_f_leadIn": 130,
                         "v_f_leadOut": 130,
@@ -1694,22 +1854,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.003333331249999999,
-                        "f_z": 0.004375,
+                        "expressions": {
+                            "tool_spindleSpeed": "20000 rpm"
+                        },
+                        "f_n": 0.002666665,
+                        "f_z": 0.0035,
                         "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 20000,
+                        "n_ramp": 20000,
                         "name": "Plastic / Acrylic",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 1047.1975511965975,
+                        "v_c": 1308.9969389957469,
                         "v_f": 140,
                         "v_f_leadIn": 140,
                         "v_f_leadOut": 140,
@@ -1768,22 +1931,25 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.0046875,
-                        "f_z": 0.0046875,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0031249999999999993,
+                        "f_z": 0.003125000000000001,
                         "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Wood / Plywood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 523.598775598299,
+                        "v_c": 785.3981633974482,
                         "v_f": 150.00000000000006,
                         "v_f_leadIn": 150.00000000000006,
                         "v_f_leadOut": 150.00000000000006,
@@ -1793,22 +1959,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.005,
-                        "f_z": 0.0053125,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.003333333333333333,
+                        "f_z": 0.0035416666666666665,
                         "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "MDF / Laminate",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 523.598775598299,
+                        "v_c": 785.3981633974482,
                         "v_f": 170,
                         "v_f_leadIn": 170,
                         "v_f_leadOut": 170,
@@ -1818,47 +1987,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.003333331249999999,
-                        "f_z": 0.0040625,
-                        "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
-                        "material": {
-                            "category": "all",
-                            "query": "",
-                            "use-hardness": false
+                        "expressions": {
+                            "tool_spindleSpeed": "18000 rpm"
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
-                        "name": "Aluminum",
-                        "ramp-angle": 2,
-                        "tool-coolant": "disabled",
-                        "use-stepdown": false,
-                        "use-stepover": false,
-                        "v_c": 523.598775598299,
-                        "v_f": 130,
-                        "v_f_leadIn": 130,
-                        "v_f_leadOut": 130,
-                        "v_f_plunge": 53.3333,
-                        "v_f_ramp": 60.00000000000002,
-                        "v_f_transition": 130
-                    },
-                    {
-                        "description": "",
-                        "f_n": 0.003333331249999999,
-                        "f_z": 0.004375,
+                        "f_n": 0.002962961111111111,
+                        "f_z": 0.003888888888888888,
                         "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 18000,
+                        "n_ramp": 18000,
                         "name": "Plastic / Acrylic",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 523.598775598299,
+                        "v_c": 589.0486225480862,
                         "v_f": 140,
                         "v_f_leadIn": 140,
                         "v_f_leadOut": 140,
@@ -1918,22 +2065,25 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.00125,
-                        "f_z": 0.00109375,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0008333333333333333,
+                        "f_z": 0.0007291666666666666,
                         "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Wood / Plywood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 523.598775598299,
+                        "v_c": 785.3981633974482,
                         "v_f": 35,
                         "v_f_leadIn": 35,
                         "v_f_leadOut": 35,
@@ -1943,22 +2093,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.00125,
-                        "f_z": 0.00125,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0008333333333333333,
+                        "f_z": 0.0008333333333333333,
                         "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "MDF / Laminate",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 523.598775598299,
+                        "v_c": 785.3981633974482,
                         "v_f": 40,
                         "v_f_leadIn": 40,
                         "v_f_leadOut": 40,
@@ -1968,22 +2121,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.0009375,
-                        "f_z": 0.0009375000000000002,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.000625,
+                        "f_z": 0.000625,
                         "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Aluminum",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 523.598775598299,
+                        "v_c": 785.3981633974482,
                         "v_f": 30.00000000000001,
                         "v_f_leadIn": 30.00000000000001,
                         "v_f_leadOut": 30.00000000000001,
@@ -1993,22 +2149,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.0009375,
-                        "f_z": 0.0009375000000000002,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.000625,
+                        "f_z": 0.000625,
                         "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Plastic / Acrylic",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 523.598775598299,
+                        "v_c": 785.3981633974482,
                         "v_f": 30.00000000000001,
                         "v_f_leadIn": 30.00000000000001,
                         "v_f_leadOut": 30.00000000000001,
@@ -2061,22 +2220,25 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.0031249999999999993,
-                        "f_z": 0.0021875,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0020833333333333333,
+                        "f_z": 0.0014583333333333332,
                         "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Wood / Plywood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 523.598775598299,
+                        "v_c": 785.3981633974482,
                         "v_f": 70,
                         "v_f_leadIn": 70,
                         "v_f_leadOut": 70,
@@ -2086,22 +2248,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.003333331249999999,
-                        "f_z": 0.0028125,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.002222220833333333,
+                        "f_z": 0.001875,
                         "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "MDF / Laminate",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 523.598775598299,
+                        "v_c": 785.3981633974482,
                         "v_f": 90,
                         "v_f_leadIn": 90,
                         "v_f_leadOut": 90,
@@ -2111,22 +2276,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.003333331249999999,
-                        "f_z": 0.0015624999999999997,
+                        "expressions": {
+                            "tool_spindleSpeed": "20000 rpm"
+                        },
+                        "f_n": 0.002666665,
+                        "f_z": 0.00125,
                         "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 20000,
+                        "n_ramp": 20000,
                         "name": "Aluminum",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 523.598775598299,
+                        "v_c": 654.4984694978734,
                         "v_f": 50,
                         "v_f_leadIn": 50,
                         "v_f_leadOut": 50,
@@ -2136,22 +2304,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.003333331249999999,
-                        "f_z": 0.001875,
+                        "expressions": {
+                            "tool_spindleSpeed": "18000 rpm"
+                        },
+                        "f_n": 0.002962961111111111,
+                        "f_z": 0.0016666666666666666,
                         "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 18000,
+                        "n_ramp": 18000,
                         "name": "Plastic / Acrylic",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 523.598775598299,
+                        "v_c": 589.0486225480862,
                         "v_f": 60,
                         "v_f_leadIn": 60,
                         "v_f_leadOut": 60,
@@ -2203,22 +2374,25 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.00125,
-                        "f_z": 0.00125,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0008333333333333333,
+                        "f_z": 0.0008333333333333333,
                         "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Wood / Plywood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 261.79938779914943,
+                        "v_c": 392.6990816987241,
                         "v_f": 40,
                         "v_f_leadIn": 40,
                         "v_f_leadOut": 40,
@@ -2228,22 +2402,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.00125,
-                        "f_z": 0.0015624999999999997,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0008333333333333333,
+                        "f_z": 0.0010416666666666669,
                         "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "MDF / Laminate",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 261.79938779914943,
+                        "v_c": 392.6990816987241,
                         "v_f": 50,
                         "v_f_leadIn": 50,
                         "v_f_leadOut": 50,
@@ -2253,22 +2430,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.00125,
-                        "f_z": 0.00125,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0008333333333333333,
+                        "f_z": 0.0008333333333333333,
                         "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Plastic / Acrylic",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 261.79938779914943,
+                        "v_c": 392.6990816987241,
                         "v_f": 40,
                         "v_f_leadIn": 40,
                         "v_f_leadOut": 40,
@@ -2323,22 +2503,25 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.0021875,
-                        "f_z": 0.0015624999999999997,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0014583333333333332,
+                        "f_z": 0.0010416666666666669,
                         "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Wood / Plywood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 130.89969389957471,
+                        "v_c": 196.34954084936209,
                         "v_f": 50,
                         "v_f_leadIn": 50,
                         "v_f_leadOut": 50,
@@ -2348,22 +2531,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.0025,
-                        "f_z": 0.0021875,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0016666666666666666,
+                        "f_z": 0.0014583333333333332,
                         "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "MDF / Laminate",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 130.89969389957471,
+                        "v_c": 196.34954084936209,
                         "v_f": 70,
                         "v_f_leadIn": 70,
                         "v_f_leadOut": 70,
@@ -2373,22 +2559,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.0018750000000000004,
-                        "f_z": 0.00125,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.00125,
+                        "f_z": 0.0008333333333333333,
                         "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Aluminum",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 130.89969389957471,
+                        "v_c": 196.34954084936209,
                         "v_f": 40,
                         "v_f_leadIn": 40,
                         "v_f_leadOut": 40,
@@ -2398,22 +2587,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.0021875,
-                        "f_z": 0.0015624999999999997,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0014583333333333332,
+                        "f_z": 0.0010416666666666669,
                         "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Plastic / Acrylic",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 130.89969389957471,
+                        "v_c": 196.34954084936209,
                         "v_f": 50,
                         "v_f_leadIn": 50,
                         "v_f_leadOut": 50,
@@ -2432,7 +2624,8 @@
             "GRADE": "Mill Generic",
             "description": "Bits&Bits SRF4-125UP - 1/8\" Up-Cut Spiral Bit",
             "expressions": {
-                "tool_description": "'Bits&Bits SRF4-125UP - 1/8\" Up-Cut Spiral Bit'"
+                "tool_description": "'Bits&Bits SRF4-125UP - 1/8\" Up-Cut Spiral Bit'",
+                "tool_shaftDiameter": "0.125 in"
             },
             "geometry": {
                 "CSP": false,
@@ -2442,7 +2635,7 @@
                 "LCF": 1,
                 "NOF": 2,
                 "OAL": 2.5,
-                "SFDM": 0.25,
+                "SFDM": 0.125,
                 "assemblyGaugeLength": 1.5,
                 "shoulder-diameter": 0.125,
                 "shoulder-length": 1.01
@@ -2464,22 +2657,25 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.0031249999999999993,
-                        "f_z": 0.0021875,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0020833333333333333,
+                        "f_z": 0.0014583333333333332,
                         "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Wood / Plywood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 523.598775598299,
+                        "v_c": 785.3981633974482,
                         "v_f": 70,
                         "v_f_leadIn": 70,
                         "v_f_leadOut": 70,
@@ -2489,22 +2685,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.003333331249999999,
-                        "f_z": 0.0028125,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.002222220833333333,
+                        "f_z": 0.0018750000000000008,
                         "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "MDF / Laminate",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 523.598775598299,
+                        "v_c": 785.3981633974482,
                         "v_f": 90.00000000000003,
                         "v_f_leadIn": 90.00000000000003,
                         "v_f_leadOut": 90.00000000000003,
@@ -2514,22 +2713,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.003333331249999999,
-                        "f_z": 0.0015624999999999997,
+                        "expressions": {
+                            "tool_spindleSpeed": "20000 rpm"
+                        },
+                        "f_n": 0.002666665,
+                        "f_z": 0.00125,
                         "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 20000,
+                        "n_ramp": 20000,
                         "name": "Aluminum",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 523.598775598299,
+                        "v_c": 654.4984694978734,
                         "v_f": 50,
                         "v_f_leadIn": 50,
                         "v_f_leadOut": 50,
@@ -2539,22 +2741,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.003333331249999999,
-                        "f_z": 0.0015624999999999997,
+                        "expressions": {
+                            "tool_spindleSpeed": "18000 rpm"
+                        },
+                        "f_n": 0.002962961111111111,
+                        "f_z": 0.0013888888888888887,
                         "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 18000,
+                        "n_ramp": 18000,
                         "name": "Plastic / Acrylic",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 523.598775598299,
+                        "v_c": 589.0486225480862,
                         "v_f": 50,
                         "v_f_leadIn": 50,
                         "v_f_leadOut": 50,
@@ -2571,19 +2776,23 @@
         {
             "BMC": "carbide",
             "GRADE": "Mill Generic",
-            "description": "Bits&Bits 425-DNC125LR - 1/8\" Down-Cut Spiral Bit - 1\" LOC",
+            "description": "Bits&Bits 820-DNC125 - 1/8\" Down-Cut Spiral Bit",
             "expressions": {
-                "tool_description": "'Bits&Bits 425-DNC125LR - 1/8\" Down-Cut Spiral Bit - 1\" LOC'"
+                "tool_description": "'Bits&Bits 820-DNC125 - 1/8\" Down-Cut Spiral Bit'",
+                "tool_fluteLength": ".75 in",
+                "tool_productId": "'820-DNC125'",
+                "tool_productLink": "'https://bitsbits.com/product/820-dnc125'",
+                "tool_shaftDiameter": "0.125 in"
             },
             "geometry": {
                 "CSP": false,
                 "DC": 0.125,
                 "HAND": true,
                 "LB": 1.5,
-                "LCF": 1,
+                "LCF": 0.75,
                 "NOF": 2,
                 "OAL": 2.5,
-                "SFDM": 0.25,
+                "SFDM": 0.125,
                 "assemblyGaugeLength": 1.5,
                 "shoulder-diameter": 0.125,
                 "shoulder-length": 1.01
@@ -2599,28 +2808,31 @@
                 "number": 9,
                 "turret": 0
             },
-            "product-id": "425-DNC125LR",
-            "product-link": "https://bitsbits.com/product/425-dnc125lr/",
+            "product-id": "820-DNC125",
+            "product-link": "https://bitsbits.com/product/820-dnc125",
             "start-values": {
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.0031249999999999993,
-                        "f_z": 0.0021875,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0020833333333333333,
+                        "f_z": 0.0014583333333333332,
                         "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Wood / Plywood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 523.598775598299,
+                        "v_c": 785.3981633974482,
                         "v_f": 70,
                         "v_f_leadIn": 70,
                         "v_f_leadOut": 70,
@@ -2630,22 +2842,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.003333331249999999,
-                        "f_z": 0.0028125,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.002222220833333333,
+                        "f_z": 0.001875,
                         "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "MDF / Laminate",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 523.598775598299,
+                        "v_c": 785.3981633974482,
                         "v_f": 90,
                         "v_f_leadIn": 90,
                         "v_f_leadOut": 90,
@@ -2655,22 +2870,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.003333331249999999,
-                        "f_z": 0.001875,
+                        "expressions": {
+                            "tool_spindleSpeed": "18000 rpm"
+                        },
+                        "f_n": 0.002962961111111111,
+                        "f_z": 0.0016666666666666666,
                         "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 18000,
+                        "n_ramp": 18000,
                         "name": "Plastic / Acrylic",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 523.598775598299,
+                        "v_c": 589.0486225480862,
                         "v_f": 60,
                         "v_f_leadIn": 60,
                         "v_f_leadOut": 60,
@@ -2720,24 +2938,24 @@
                         "description": "",
                         "expressions": {
                             "tool_feedCutting": "70 in/min",
-                            "tool_spindleSpeed": "20000 rpm"
+                            "tool_spindleSpeed": "24000 rpm"
                         },
-                        "f_n": 8e-04,
-                        "f_z": 0.00175,
+                        "f_n": 0.0006666666666666666,
+                        "f_z": 0.0014583333333333334,
                         "guid": "f8593c2a-d420-46b7-9493-09ef412dd7d1",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 20000,
-                        "n_ramp": 20000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Wood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 654.4984694978734,
+                        "v_c": 785.3981633974482,
                         "v_f": 70,
                         "v_f_leadIn": 70,
                         "v_f_leadOut": 70,
@@ -2787,24 +3005,24 @@
                         "description": "",
                         "expressions": {
                             "tool_feedCutting": "70 in/min",
-                            "tool_spindleSpeed": "20000 rpm"
+                            "tool_spindleSpeed": "24000 rpm"
                         },
-                        "f_n": 8e-04,
-                        "f_z": 0.00175,
+                        "f_n": 0.0006666666666666666,
+                        "f_z": 0.0014583333333333334,
                         "guid": "64d2039d-f34c-3034-1bc0-e89b8b2542f2",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 20000,
-                        "n_ramp": 20000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Wood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 654.4984694978734,
+                        "v_c": 785.3981633974482,
                         "v_f": 70,
                         "v_f_leadIn": 40,
                         "v_f_leadOut": 40,
@@ -3231,24 +3449,24 @@
                             "tool_feedCutting": "55 in/min",
                             "tool_feedPlunge": "300 mmpm",
                             "tool_feedRamp": "700 mmpm",
-                            "tool_spindleSpeed": "20000 rpm"
+                            "tool_spindleSpeed": "24000 rpm"
                         },
-                        "f_n": 0.015,
-                        "f_z": 0.034925,
+                        "f_n": 0.0125,
+                        "f_z": 0.029104166666666664,
                         "guid": "94b0089a-ecf1-400b-bbff-3527e3caa3f6",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 20000,
-                        "n_ramp": 20000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Wood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 94.2477796076938,
+                        "v_c": 113.09733552923257,
                         "v_f": 1397,
                         "v_f_leadIn": 1016,
                         "v_f_leadOut": 1016,
@@ -3461,24 +3679,24 @@
                             "tool_feedCutting": "55 in/min",
                             "tool_feedPlunge": "300 mmpm",
                             "tool_feedRamp": "700 mmpm",
-                            "tool_spindleSpeed": "20000 rpm"
+                            "tool_spindleSpeed": "24000 rpm"
                         },
-                        "f_n": 0.015,
-                        "f_z": 0.034925,
+                        "f_n": 0.0125,
+                        "f_z": 0.029104166666666664,
                         "guid": "94b0089a-ecf1-400b-bbff-3527e3caa3f6",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 20000,
-                        "n_ramp": 20000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Wood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 50.2654824574367,
+                        "v_c": 60.318578948924035,
                         "v_f": 1397,
                         "v_f_leadIn": 1016,
                         "v_f_leadOut": 1016,
@@ -3534,22 +3752,25 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.003125,
-                        "f_z": 0.0021875,
+                        "expressions": {
+                            "tool_spindleSpeed": "20000 rpm"
+                        },
+                        "f_n": 0.0025,
+                        "f_z": 0.00175,
                         "guid": "010e2f64-d101-4904-961e-806adf3cf73c",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 20000,
+                        "n_ramp": 20000,
                         "name": "Wood / Plywood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 150.79644737231007,
+                        "v_c": 188.4955592153876,
                         "v_f": 70,
                         "v_f_leadIn": 70,
                         "v_f_leadOut": 70,
@@ -3559,22 +3780,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.00333333125,
-                        "f_z": 0.0028125,
+                        "expressions": {
+                            "tool_spindleSpeed": "20000 rpm"
+                        },
+                        "f_n": 0.002666665,
+                        "f_z": 0.00225,
                         "guid": "3a28e53a-4275-4864-ad26-5643abb4b3e0",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 20000,
+                        "n_ramp": 20000,
                         "name": "MDF / Laminate",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 150.79644737231007,
+                        "v_c": 188.4955592153876,
                         "v_f": 90,
                         "v_f_leadIn": 90,
                         "v_f_leadOut": 90,
@@ -3584,22 +3808,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.00333333125,
-                        "f_z": 0.001875,
+                        "expressions": {
+                            "tool_spindleSpeed": "20000 rpm"
+                        },
+                        "f_n": 0.002666665,
+                        "f_z": 0.0015,
                         "guid": "6ee8b6ac-8207-41d1-a332-fefdcf7e9467",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 20000,
+                        "n_ramp": 20000,
                         "name": "Plastic / Acrylic",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 150.79644737231007,
+                        "v_c": 188.4955592153876,
                         "v_f": 60,
                         "v_f_leadIn": 60,
                         "v_f_leadOut": 60,
@@ -3655,22 +3882,25 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.0021875,
-                        "f_z": 0.0015625,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0014583333333333334,
+                        "f_z": 0.0010416666666666669,
                         "guid": "077317dc-4ed6-4378-98d1-883dbc1fb817",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Wood / Plywood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 75.39822368615503,
+                        "v_c": 113.09733552923257,
                         "v_f": 50,
                         "v_f_leadIn": 50,
                         "v_f_leadOut": 50,
@@ -3680,22 +3910,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.0025,
-                        "f_z": 0.0021875,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0016666666666666668,
+                        "f_z": 0.0014583333333333334,
                         "guid": "e1cc3f55-c085-47e8-9ae1-f5c16917a913",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "MDF / Laminate",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 75.39822368615503,
+                        "v_c": 113.09733552923257,
                         "v_f": 70,
                         "v_f_leadIn": 70,
                         "v_f_leadOut": 70,
@@ -3705,22 +3938,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.0021875,
-                        "f_z": 0.0015625,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0014583333333333334,
+                        "f_z": 0.0010416666666666669,
                         "guid": "5459f4da-f839-4f4d-93da-88188b64d639",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Plastic / Acrylic",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 75.39822368615503,
+                        "v_c": 113.09733552923257,
                         "v_f": 50,
                         "v_f_leadIn": 50,
                         "v_f_leadOut": 50,
@@ -3779,22 +4015,25 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.00125,
-                        "f_z": 0.00125,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0008333333333333334,
+                        "f_z": 0.0008333333333333334,
                         "guid": "e5ee5c8e-6a04-454b-b0ba-e164d3617b9b",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Wood / Plywood",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 40.21238596594936,
+                        "v_c": 60.318578948924035,
                         "v_f": 40,
                         "v_f_leadIn": 40,
                         "v_f_leadOut": 40,
@@ -3804,22 +4043,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.00125,
-                        "f_z": 0.0015625,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0008333333333333334,
+                        "f_z": 0.0010416666666666669,
                         "guid": "84d7ace4-5240-4b60-be32-ab312d3ecefe",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "MDF / Laminate",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 40.21238596594936,
+                        "v_c": 60.318578948924035,
                         "v_f": 50,
                         "v_f_leadIn": 50,
                         "v_f_leadOut": 50,
@@ -3829,22 +4071,25 @@
                     },
                     {
                         "description": "",
-                        "f_n": 0.00125,
-                        "f_z": 0.00125,
+                        "expressions": {
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0008333333333333334,
+                        "f_z": 0.0008333333333333334,
                         "guid": "6046741c-5e1a-4448-86aa-3c16679b5929",
                         "material": {
                             "category": "all",
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
-                        "n_ramp": 16000,
+                        "n": 24000,
+                        "n_ramp": 24000,
                         "name": "Plastic / Acrylic",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 40.21238596594936,
+                        "v_c": 60.318578948924035,
                         "v_f": 40,
                         "v_f_leadIn": 40,
                         "v_f_leadOut": 40,

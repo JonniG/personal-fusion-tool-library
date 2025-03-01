@@ -54,7 +54,7 @@
                         },
                         "n": 10000,
                         "n_ramp": 10000,
-                        "name": "Default Preset",
+                        "name": "MDF Wasteboard",
                         "ramp-angle": 2,
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
@@ -382,9 +382,11 @@
         {
             "BMC": "carbide",
             "GRADE": "Mill Generic",
-            "description": "Bits&Bits 425-UP125 - 1/8\" 'O' Flute Up-Cut Spiral for Plastic and Aluminum",
+            "description": "Bits&Bits 820-UP125 - 1/8\" 'O' Flute Up-Cut Spiral for Plastic and Aluminum",
             "expressions": {
-                "tool_description": "'Bits&Bits 425-UP125 - 1/8\" 'O' Flute Up-Cut Spiral for Plastic and Aluminum'",
+                "tool_description": "'Bits&Bits 820-UP125 - 1/8\" 'O' Flute Up-Cut Spiral for Plastic and Aluminum'",
+                "tool_productId": "'820-UP125'",
+                "tool_productLink": "'https://bitsbits.com/product/bitsbits-820-up125-1-8-o-flute-cnc-bit-1-8-shank/'",
                 "tool_shaftDiameter": ".125\""
             },
             "geometry": {
@@ -411,8 +413,8 @@
                 "number": 10,
                 "turret": 0
             },
-            "product-id": "425-UP125",
-            "product-link": "https://bitsbits.com/product/425-up125/",
+            "product-id": "820-UP125",
+            "product-link": "https://bitsbits.com/product/bitsbits-820-up125-1-8-o-flute-cnc-bit-1-8-shank/",
             "start-values": {
                 "presets": [
                     {
@@ -480,9 +482,11 @@
         {
             "BMC": "carbide",
             "GRADE": "Mill Generic",
-            "description": "Bits&Bits SRF4-062UP - 1/16\" Up-Cut Spiral Bit",
+            "description": "Bits&Bits 820-SRF062 - 1/16\" Up-Cut Spiral Bit",
             "expressions": {
-                "tool_description": "'Bits&Bits SRF4-062UP - 1/16\" Up-Cut Spiral Bit'",
+                "tool_description": "'Bits&Bits 820-SRF062 - 1/16\" Up-Cut Spiral Bit'",
+                "tool_productId": "'820-SRF062'",
+                "tool_productLink": "'https://bitsbits.com/product/820-srf062-1-16-up-cut-spiral/'",
                 "tool_shaftDiameter": ".125\""
             },
             "geometry": {
@@ -509,8 +513,8 @@
                 "number": 12,
                 "turret": 0
             },
-            "product-id": "SRF4-062UP",
-            "product-link": "https://bitsbits.com/product/srf4-062up/",
+            "product-id": "820-SRF062",
+            "product-link": "https://bitsbits.com/product/820-srf062-1-16-up-cut-spiral/",
             "start-values": {
                 "presets": [
                     {
@@ -634,10 +638,12 @@
         {
             "BMC": "carbide",
             "GRADE": "Mill Generic",
-            "description": "Bits&Bits 425-DNC062 - 1/32\" Down-Cut Spiral Bit",
+            "description": "Bits&Bits 820-DNC032 - 1/32\" Down-Cut Spiral Bit",
             "expressions": {
-                "tool_description": "'Bits&Bits 425-DNC062 - 1/32\" Down-Cut Spiral Bit'",
+                "tool_description": "'Bits&Bits 820-DNC032 - 1/32\" Down-Cut Spiral Bit'",
                 "tool_diameter": "1/32\"",
+                "tool_productId": "'820-DNC032'",
+                "tool_productLink": "'https://bitsbits.com/product/820-dnc032/'",
                 "tool_shaftDiameter": ".125\""
             },
             "geometry": {
@@ -664,8 +670,8 @@
                 "number": 19,
                 "turret": 0
             },
-            "product-id": "425-DNC062",
-            "product-link": "https://bitsbits.com/product/425-dnc062/",
+            "product-id": "820-DNC032",
+            "product-link": "https://bitsbits.com/product/820-dnc032/",
             "start-values": {
                 "presets": [
                     {
@@ -761,9 +767,11 @@
         {
             "BMC": "carbide",
             "GRADE": "Mill Generic",
-            "description": "Bits&Bits SRF4-062LR - 1/16\" Long Reach Up-Cut Spiral Bit",
+            "description": "Bits&Bits 820-SRF062LR - 1/16\" Long Reach Up-Cut Spiral Bit",
             "expressions": {
-                "tool_description": "'Bits&Bits SRF4-062LR - 1/16\" Long Reach Up-Cut Spiral Bit'",
+                "tool_description": "'Bits&Bits 820-SRF062LR - 1/16\" Long Reach Up-Cut Spiral Bit'",
+                "tool_productId": "'820-SRF062LR'",
+                "tool_productLink": "'https://bitsbits.com/product/dc062f-deep/'",
                 "tool_shaftDiameter": ".125\""
             },
             "geometry": {
@@ -790,8 +798,8 @@
                 "number": 13,
                 "turret": 0
             },
-            "product-id": "SRF4-062LR",
-            "product-link": "https://bitsbits.com/product/srf4-062lr/",
+            "product-id": "820-SRF062LR",
+            "product-link": "https://bitsbits.com/product/dc062f-deep/",
             "start-values": {
                 "presets": [
                     {
@@ -915,9 +923,11 @@
         {
             "BMC": "carbide",
             "GRADE": "Mill Generic",
-            "description": "Bits&Bits 425-DNC062LR - 1/16\" Long Reach Down-Cut Spiral Bit",
+            "description": "Bits&Bits 820-DNC062LR - 1/16\" Long Reach Down-Cut Spiral Bit",
             "expressions": {
-                "tool_description": "'Bits&Bits 425-DNC062LR - 1/16\" Long Reach Down-Cut Spiral Bit'",
+                "tool_description": "'Bits&Bits 820-DNC062LR - 1/16\" Long Reach Down-Cut Spiral Bit'",
+                "tool_productId": "'820-DNC062LR'",
+                "tool_productLink": "'https://bitsbits.com/product/820-dnc062lr/'",
                 "tool_shaftDiameter": ".125\""
             },
             "geometry": {
@@ -944,8 +954,8 @@
                 "number": 15,
                 "turret": 0
             },
-            "product-id": "425-DNC062LR",
-            "product-link": "https://bitsbits.com/product/425-dnc062lr/",
+            "product-id": "820-DNC062LR",
+            "product-link": "https://bitsbits.com/product/820-dnc062lr/",
             "start-values": {
                 "presets": [
                     {
@@ -1041,9 +1051,11 @@
         {
             "BMC": "carbide",
             "GRADE": "Mill Generic",
-            "description": "Bits&Bits SRB4-062UP - 1/16\" Ball Nose Up-Cut Spiral Bit",
+            "description": "Bits&Bits 820-SRB062 - 1/16\" Ball Nose Up-Cut Spiral Bit",
             "expressions": {
-                "tool_description": "'Bits&Bits SRB4-062UP - 1/16\" Ball Nose Up-Cut Spiral Bit'",
+                "tool_description": "'Bits&Bits 820-SRB062 - 1/16\" Ball Nose Up-Cut Spiral Bit'",
+                "tool_productId": "'820-SRB062'",
+                "tool_productLink": "'https://bitsbits.com/product/bitsbits-820-srb062-1-16-ball-nose/'",
                 "tool_shaftDiameter": ".125\""
             },
             "geometry": {
@@ -1070,8 +1082,8 @@
                 "number": 16,
                 "turret": 0
             },
-            "product-id": "SRB4-062UP",
-            "product-link": "https://bitsbits.com/product/srb4-062up/",
+            "product-id": "820-SRB062",
+            "product-link": "https://bitsbits.com/product/bitsbits-820-srb062-1-16-ball-nose/",
             "start-values": {
                 "presets": [
                     {
@@ -1195,9 +1207,11 @@
         {
             "BMC": "carbide",
             "GRADE": "Mill Generic",
-            "description": "Bits&Bits SRB4-062LR - 1/16\" Long Reach Ball Nose Up-Cut Spiral Bit",
+            "description": "Bits&Bits 820-SRB062LR - 1/16\" Long Reach Ball Nose Up-Cut Spiral Bit",
             "expressions": {
-                "tool_description": "'Bits&Bits SRB4-062LR - 1/16\" Long Reach Ball Nose Up-Cut Spiral Bit'",
+                "tool_description": "'Bits&Bits 820-SRB062LR - 1/16\" Long Reach Ball Nose Up-Cut Spiral Bit'",
+                "tool_productId": "'820-SRB062LR'",
+                "tool_productLink": "'https://bitsbits.com/product/820-srb062lr-ball-nose/'",
                 "tool_shaftDiameter": ".125\""
             },
             "geometry": {
@@ -1224,8 +1238,8 @@
                 "number": 17,
                 "turret": 0
             },
-            "product-id": "SRB4-062LR",
-            "product-link": "https://bitsbits.com/product/srb4-062lr/",
+            "product-id": "820-SRB062LR",
+            "product-link": "https://bitsbits.com/product/820-srb062lr-ball-nose/",
             "start-values": {
                 "presets": [
                     {
@@ -1384,10 +1398,13 @@
                     {
                         "description": "",
                         "expressions": {
+                            "tool_feedCutting": "120 inpm",
+                            "tool_feedPlunge": "50 inpm",
+                            "tool_feedRamp": "75 inpm",
                             "tool_spindleSpeed": "20000 rpm"
                         },
-                        "f_n": 0.00375,
-                        "f_z": 0.003750000000000001,
+                        "f_n": 0.0025,
+                        "f_z": 0.003,
                         "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
                         "material": {
                             "category": "all",
@@ -1402,20 +1419,22 @@
                         "use-stepdown": false,
                         "use-stepover": false,
                         "v_c": 1308.9969389957469,
-                        "v_f": 150.00000000000006,
-                        "v_f_leadIn": 150.00000000000006,
-                        "v_f_leadOut": 150.00000000000006,
-                        "v_f_plunge": 75,
+                        "v_f": 120,
+                        "v_f_leadIn": 120,
+                        "v_f_leadOut": 120,
+                        "v_f_plunge": 50,
                         "v_f_ramp": 75,
-                        "v_f_transition": 150.00000000000006
+                        "v_f_transition": 120
                     },
                     {
                         "description": "",
                         "expressions": {
+                            "tool_feedCutting": "150 inpm",
+                            "tool_feedPlunge": "70 inpm",
                             "tool_spindleSpeed": "20000 rpm"
                         },
-                        "f_n": 0.004,
-                        "f_z": 0.00425,
+                        "f_n": 0.0035,
+                        "f_z": 0.00375,
                         "guid": "279fc892-3931-4909-b8a1-7cb0123e9768",
                         "material": {
                             "category": "all",
@@ -1430,68 +1449,12 @@
                         "use-stepdown": false,
                         "use-stepover": false,
                         "v_c": 1308.9969389957469,
-                        "v_f": 170,
-                        "v_f_leadIn": 170,
-                        "v_f_leadOut": 170,
-                        "v_f_plunge": 80,
+                        "v_f": 150,
+                        "v_f_leadIn": 150,
+                        "v_f_leadOut": 150,
+                        "v_f_plunge": 70,
                         "v_f_ramp": 90,
-                        "v_f_transition": 170
-                    },
-                    {
-                        "description": "",
-                        "expressions": {
-                            "tool_spindleSpeed": "20000 rpm"
-                        },
-                        "f_n": 0.002666665,
-                        "f_z": 0.00325,
-                        "guid": "3e9f7273-4550-4351-9161-18b0ff25f35f",
-                        "material": {
-                            "category": "all",
-                            "query": "",
-                            "use-hardness": false
-                        },
-                        "n": 20000,
-                        "n_ramp": 20000,
-                        "name": "Aluminum",
-                        "ramp-angle": 2,
-                        "tool-coolant": "disabled",
-                        "use-stepdown": false,
-                        "use-stepover": false,
-                        "v_c": 1308.9969389957469,
-                        "v_f": 130,
-                        "v_f_leadIn": 130,
-                        "v_f_leadOut": 130,
-                        "v_f_plunge": 53.3333,
-                        "v_f_ramp": 60.00000000000002,
-                        "v_f_transition": 130
-                    },
-                    {
-                        "description": "",
-                        "expressions": {
-                            "tool_spindleSpeed": "20000 rpm"
-                        },
-                        "f_n": 0.002666665,
-                        "f_z": 0.0035,
-                        "guid": "02713d08-f4a5-4a28-ad04-d1f16b8ed583",
-                        "material": {
-                            "category": "all",
-                            "query": "",
-                            "use-hardness": false
-                        },
-                        "n": 20000,
-                        "n_ramp": 20000,
-                        "name": "Plastic / Acrylic",
-                        "ramp-angle": 2,
-                        "tool-coolant": "disabled",
-                        "use-stepdown": false,
-                        "use-stepover": false,
-                        "v_c": 1308.9969389957469,
-                        "v_f": 140,
-                        "v_f_leadIn": 140,
-                        "v_f_leadOut": 140,
-                        "v_f_plunge": 53.3333,
-                        "v_f_ramp": 70,
-                        "v_f_transition": 140
+                        "v_f_transition": 150
                     }
                 ]
             },
@@ -2185,9 +2148,11 @@
         {
             "BMC": "carbide",
             "GRADE": "Mill Generic",
-            "description": "Bits&Bits SRB4-125UP - 1/8\" Ball Nose Up-Cut Spiral Bit",
+            "description": "Bits&Bits 820-SRB125 - 1/8\" Ball Nose Up-Cut Spiral Bit",
             "expressions": {
-                "tool_description": "'Bits&Bits SRB4-125UP - 1/8\" Ball Nose Up-Cut Spiral Bit'",
+                "tool_description": "'Bits&Bits 820-SRB125 - 1/8\" Ball Nose Up-Cut Spiral Bit'",
+                "tool_productId": "'820-SRB125'",
+                "tool_productLink": "'https://bitsbits.com/product/1-8-ball-nose-end-mill/'",
                 "tool_shaftDiameter": ".125\""
             },
             "geometry": {
@@ -2214,8 +2179,8 @@
                 "number": 11,
                 "turret": 0
             },
-            "product-id": "SRB4-125UP",
-            "product-link": "https://bitsbits.com/product/srb4-125up/",
+            "product-id": "820-SRB125",
+            "product-link": "https://bitsbits.com/product/1-8-ball-nose-end-mill/",
             "start-values": {
                 "presets": [
                     {
@@ -2339,9 +2304,11 @@
         {
             "BMC": "carbide",
             "GRADE": "Mill Generic",
-            "description": "Bits&Bits 425-DNC062 - 1/16\" Down-Cut Spiral Bit",
+            "description": "Bits&Bits 820-DNC062 - 1/16\" Down-Cut Spiral Bit",
             "expressions": {
-                "tool_description": "'Bits&Bits 425-DNC062 - 1/16\" Down-Cut Spiral Bit'",
+                "tool_description": "'Bits&Bits 820-DNC062 - 1/16\" Down-Cut Spiral Bit'",
+                "tool_productId": "'820-DNC062'",
+                "tool_productLink": "'https://bitsbits.com/product/820-dnc062/'",
                 "tool_shaftDiameter": ".125\""
             },
             "geometry": {
@@ -2368,17 +2335,20 @@
                 "number": 14,
                 "turret": 0
             },
-            "product-id": "425-DNC062",
-            "product-link": "https://bitsbits.com/product/425-dnc062/",
+            "product-id": "820-DNC062",
+            "product-link": "https://bitsbits.com/product/820-dnc062/",
             "start-values": {
                 "presets": [
                     {
                         "description": "",
                         "expressions": {
+                            "tool_feedCutting": "20 inpm",
+                            "tool_feedPlunge": "10 inpm",
+                            "tool_feedRamp": "10 inpm",
                             "tool_spindleSpeed": "24000 rpm"
                         },
-                        "f_n": 0.0008333333333333333,
-                        "f_z": 0.0008333333333333333,
+                        "f_n": 0.00041666666666666664,
+                        "f_z": 0.00041666666666666664,
                         "guid": "8d8aedd9-2125-43d5-bcf4-bb6f50d8f107",
                         "material": {
                             "category": "all",
@@ -2393,12 +2363,12 @@
                         "use-stepdown": false,
                         "use-stepover": false,
                         "v_c": 392.6990816987241,
-                        "v_f": 40,
-                        "v_f_leadIn": 40,
-                        "v_f_leadOut": 40,
-                        "v_f_plunge": 20,
-                        "v_f_ramp": 20,
-                        "v_f_transition": 40
+                        "v_f": 20,
+                        "v_f_leadIn": 20,
+                        "v_f_leadOut": 20,
+                        "v_f_plunge": 10,
+                        "v_f_ramp": 10,
+                        "v_f_transition": 20
                     },
                     {
                         "description": "",
@@ -2465,12 +2435,14 @@
         {
             "BMC": "carbide",
             "GRADE": "Mill Generic",
-            "description": "Bits&Bits SRF4-062UP - 1/32\" Up-Cut Spiral Bit",
+            "description": "Bits&Bits 820-SRF032 - 1/32\" Up-Cut Spiral Bit",
             "expressions": {
                 "tool_bodyLength": "1 in",
-                "tool_description": "'Bits&Bits SRF4-062UP - 1/32\" Up-Cut Spiral Bit'",
+                "tool_description": "'Bits&Bits 820-SRF032 - 1/32\" Up-Cut Spiral Bit'",
                 "tool_diameter": "1/32\"",
                 "tool_fluteLength": ".25 in",
+                "tool_productId": "'820-SRF032'",
+                "tool_productLink": "'https://bitsbits.com/product/srf032/'",
                 "tool_shaftDiameter": ".125\""
             },
             "geometry": {
@@ -2497,8 +2469,8 @@
                 "number": 18,
                 "turret": 0
             },
-            "product-id": "SRF4-062UP",
-            "product-link": "https://bitsbits.com/product/srf4-062up/",
+            "product-id": "820-SRF032",
+            "product-link": "https://bitsbits.com/product/srf032/",
             "start-values": {
                 "presets": [
                     {
@@ -2622,9 +2594,11 @@
         {
             "BMC": "carbide",
             "GRADE": "Mill Generic",
-            "description": "Bits&Bits SRF4-125UP - 1/8\" Up-Cut Spiral Bit",
+            "description": "Bits&Bits 820-SRF125 - 1/8\" Up-Cut Spiral Bit",
             "expressions": {
-                "tool_description": "'Bits&Bits SRF4-125UP - 1/8\" Up-Cut Spiral Bit'",
+                "tool_description": "'Bits&Bits 820-SRF125 - 1/8\" Up-Cut Spiral Bit'",
+                "tool_productId": "'820-SRF125'",
+                "tool_productLink": "'https://bitsbits.com/product/bitsbits-820-srf125-1-8-spiral-up-cut-cnc-bit/'",
                 "tool_shaftDiameter": "0.125 in"
             },
             "geometry": {
@@ -2651,8 +2625,8 @@
                 "number": 8,
                 "turret": 0
             },
-            "product-id": "SRF4-125UP",
-            "product-link": "https://bitsbits.com/product/srf4-125up/",
+            "product-id": "820-SRF125",
+            "product-link": "https://bitsbits.com/product/bitsbits-820-srf125-1-8-spiral-up-cut-cnc-bit/",
             "start-values": {
                 "presets": [
                     {
